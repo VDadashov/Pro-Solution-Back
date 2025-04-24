@@ -1,0 +1,71 @@
+C:\Users\ACER\source\repos\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.BL.deps.json
+C:\Users\ACER\source\repos\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.BL.dll
+C:\Users\ACER\source\repos\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.BL.pdb
+C:\Users\ACER\source\repos\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.Core.dll
+C:\Users\ACER\source\repos\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.DAL.dll
+C:\Users\ACER\source\repos\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.DAL.pdb
+C:\Users\ACER\source\repos\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.Core.pdb
+C:\Users\ACER\source\repos\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.csproj.AssemblyReference.cache
+C:\Users\ACER\source\repos\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\source\repos\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.AssemblyInfoInputs.cache
+C:\Users\ACER\source\repos\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.AssemblyInfo.cs
+C:\Users\ACER\source\repos\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolut.D4361D3A.Up2Date
+C:\Users\ACER\source\repos\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.dll
+C:\Users\ACER\source\repos\ProSolution\ProSolution.BL\obj\Debug\net8.0\refint\ProSolution.BL.dll
+C:\Users\ACER\source\repos\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.pdb
+C:\Users\ACER\source\repos\ProSolution\ProSolution.BL\obj\Debug\net8.0\ref\ProSolution.BL.dll
+C:\Users\ACER\Desktop\Pro Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.BL.deps.json
+C:\Users\ACER\Desktop\Pro Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.BL.dll
+C:\Users\ACER\Desktop\Pro Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.BL.pdb
+C:\Users\ACER\Desktop\Pro Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.Core.dll
+C:\Users\ACER\Desktop\Pro Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.DAL.dll
+C:\Users\ACER\Desktop\Pro Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.DAL.pdb
+C:\Users\ACER\Desktop\Pro Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.Core.pdb
+C:\Users\ACER\Desktop\Pro Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\Pro Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\Pro Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\Pro Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.AssemblyInfo.cs
+C:\Users\ACER\Desktop\Pro Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\Pro Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolut.D4361D3A.Up2Date
+C:\Users\ACER\Desktop\Pro Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.dll
+C:\Users\ACER\Desktop\Pro Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\refint\ProSolution.BL.dll
+C:\Users\ACER\Desktop\Pro Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.pdb
+C:\Users\ACER\Desktop\Pro Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ref\ProSolution.BL.dll
+C:\Users\ACER\Desktop\Pro Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.sourcelink.json
+C:\Users\ikinci.el.noutbuklar\Desktop\Новая папка\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.csproj.AssemblyReference.cache
+C:\Users\ikinci.el.noutbuklar\Desktop\Новая папка\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ikinci.el.noutbuklar\Desktop\Новая папка\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.AssemblyInfoInputs.cache
+C:\Users\ikinci.el.noutbuklar\Desktop\Новая папка\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.AssemblyInfo.cs
+C:\Users\ikinci.el.noutbuklar\Desktop\Новая папка\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.csproj.CoreCompileInputs.cache
+C:\Users\ikinci.el.noutbuklar\Desktop\Новая папка\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.sourcelink.json
+C:\Users\ikinci.el.noutbuklar\Desktop\Новая папка\Pro-Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.BL.deps.json
+C:\Users\ikinci.el.noutbuklar\Desktop\Новая папка\Pro-Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.BL.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\Новая папка\Pro-Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.BL.pdb
+C:\Users\ikinci.el.noutbuklar\Desktop\Новая папка\Pro-Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.Core.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\Новая папка\Pro-Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.DAL.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\Новая папка\Pro-Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.DAL.pdb
+C:\Users\ikinci.el.noutbuklar\Desktop\Новая папка\Pro-Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.Core.pdb
+C:\Users\ikinci.el.noutbuklar\Desktop\Новая папка\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolut.D4361D3A.Up2Date
+C:\Users\ikinci.el.noutbuklar\Desktop\Новая папка\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\Новая папка\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\refint\ProSolution.BL.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\Новая папка\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.pdb
+C:\Users\ikinci.el.noutbuklar\Desktop\Новая папка\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ref\ProSolution.BL.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.BL.deps.json
+C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.BL.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.BL.pdb
+C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.Core.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.DAL.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.DAL.pdb
+C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\bin\Debug\net8.0\ProSolution.Core.pdb
+C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.csproj.AssemblyReference.cache
+C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.AssemblyInfoInputs.cache
+C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.AssemblyInfo.cs
+C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.csproj.CoreCompileInputs.cache
+C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.sourcelink.json
+C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolut.D4361D3A.Up2Date
+C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\refint\ProSolution.BL.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ProSolution.BL.pdb
+C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\obj\Debug\net8.0\ref\ProSolution.BL.dll

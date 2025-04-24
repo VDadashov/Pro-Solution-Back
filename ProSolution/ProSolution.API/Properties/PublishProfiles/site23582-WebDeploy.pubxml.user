@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA87gHbHwF/0Ww6VfaTKTnwQAAAAACAAAAAAAQZgAAAAEAACAAAADdBOd9g53G25DgDTx6Dm5742/r9sCphuX0kQ4K+KGDdQAAAAAOgAAAAAIAACAAAABfonUIMZ/sKSJwToil248o2yGKaYEewC+H4u7cbNbLVSAAAABuuJgIwHJORRoC1y7DiguvY7sm0oBEq3YLTb2kqyEVvkAAAACi3+DggDblN3GcxDqHOre4vmCwJu6tQ3lssAMEtqhUsxfrcBtCTGITZ6tplsy0yVWPesqMJ4hrRa6Hhi67x3pV</EncryptedPassword>
+    <History>True|2025-04-24T10:34:57.0015400Z||;True|2025-04-24T14:34:16.8416898+04:00||;True|2025-04-24T14:30:04.6063284+04:00||;True|2025-04-24T14:22:17.4662069+04:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MsSQL">
+      <Value>Server=db18034.public.databaseasp.net%3bDatabase=db18034%3bUser Id=db18034%3bPassword=A_f8=n9ZS%3fd6%3bEncrypt=True%3bTrustServerCertificate=True%3bMultipleActiveResultSets=True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="ProSolution.DAL.Contexts.AppDbContext">
+      <Value>Server=db18034.public.databaseasp.net%3bDatabase=db18034%3bUser Id=db18034%3bPassword=A_f8=n9ZS%3fd6%3bEncrypt=True%3bTrustServerCertificate=True%3bMultipleActiveResultSets=True%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+@ProSolution.API_HostAddress = http://localhost:5168
+
+GET {{ProSolution.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
