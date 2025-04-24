@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4y2voDIXfxM=",
+  "dgSpecHash": "lNz8MHchvBk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.Core\\ProSolution.Core.csproj",
+  "projectFilePath": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.Core\\ProSolution.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ikinci.el.noutbuklar\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.14\\microsoft.aspnetcore.cryptography.internal.8.0.14.nupkg.sha512",
     "C:\\Users\\ikinci.el.noutbuklar\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.14\\microsoft.aspnetcore.cryptography.keyderivation.8.0.14.nupkg.sha512",
