@@ -11,3 +11,16 @@ C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.Core\
 C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.Core\obj\Release\net8.0\refint\ProSolution.Core.dll
 C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.Core\obj\Release\net8.0\ProSolution.Core.pdb
 C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.Core\obj\Release\net8.0\ref\ProSolution.Core.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.Core\bin\Release\net8.0\ProSolution.Core.deps.json
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.Core\bin\Release\net8.0\ProSolution.Core.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.Core\bin\Release\net8.0\ProSolution.Core.pdb
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.Core\obj\Release\net8.0\ProSolution.Core.csproj.AssemblyReference.cache
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.Core\obj\Release\net8.0\ProSolution.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.Core\obj\Release\net8.0\ProSolution.Core.AssemblyInfoInputs.cache
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.Core\obj\Release\net8.0\ProSolution.Core.AssemblyInfo.cs
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.Core\obj\Release\net8.0\ProSolution.Core.csproj.CoreCompileInputs.cache
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.Core\obj\Release\net8.0\ProSolution.Core.sourcelink.json
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.Core\obj\Release\net8.0\ProSolution.Core.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.Core\obj\Release\net8.0\refint\ProSolution.Core.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.Core\obj\Release\net8.0\ProSolution.Core.pdb
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.Core\obj\Release\net8.0\ref\ProSolution.Core.dll

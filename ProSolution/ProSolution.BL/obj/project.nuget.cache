@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CIhBRwpohoU=",
+  "dgSpecHash": "u5scEkCZ9Wk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.BL\\ProSolution.BL.csproj",
+  "projectFilePath": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\ProSolution.BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ikinci.el.noutbuklar\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\ikinci.el.noutbuklar\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
