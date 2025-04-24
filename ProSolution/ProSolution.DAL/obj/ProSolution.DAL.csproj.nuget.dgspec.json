@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.DAL\\ProSolution.DAL.csproj": {}
+    "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.DAL\\ProSolution.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.Core\\ProSolution.Core.csproj": {
+    "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.Core\\ProSolution.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.Core\\ProSolution.Core.csproj",
+        "projectUniqueName": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.Core\\ProSolution.Core.csproj",
         "projectName": "ProSolution.Core",
-        "projectPath": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.Core\\ProSolution.Core.csproj",
+        "projectPath": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.Core\\ProSolution.Core.csproj",
         "packagesPath": "C:\\Users\\ikinci.el.noutbuklar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.Core\\obj\\",
+        "outputPath": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.DAL\\ProSolution.DAL.csproj": {
+    "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.DAL\\ProSolution.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.DAL\\ProSolution.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.DAL\\ProSolution.DAL.csproj",
         "projectName": "ProSolution.DAL",
-        "projectPath": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.DAL\\ProSolution.DAL.csproj",
+        "projectPath": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.DAL\\ProSolution.DAL.csproj",
         "packagesPath": "C:\\Users\\ikinci.el.noutbuklar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.DAL\\obj\\",
+        "outputPath": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -105,8 +105,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.Core\\ProSolution.Core.csproj": {
-                "projectPath": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.Core\\ProSolution.Core.csproj"
+              "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.Core\\ProSolution.Core.csproj": {
+                "projectPath": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.Core\\ProSolution.Core.csproj"
               }
             }
           }

@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="IIS Web Application Name" description="" value="site23582" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\ikinci\.el\.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution\.API\\obj\\Release\\net8\.0\\PubTmp\\Out\\$" />
-  </parameter>
-  <parameter name="ProSolution.DAL.Contexts.AppDbContext" description="" value="Server=db18034.public.databaseasp.net;Database=db18034;User Id=db18034;Password=A_f8=n9ZS?d6;Encrypt=True;TrustServerCertificate=True;MultipleActiveResultSets=True;" tags="dbfullsql">
-    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\ikinci\.el\.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution\.API\\obj\\Release\\net8\.0\\PubTmp\\EFSQLScripts\\ProSolution\.DAL\.Contexts\.AppDbContext\.sql$" />
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\ikinci\.el\.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution\.API\\obj\\Release\\net8\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>
