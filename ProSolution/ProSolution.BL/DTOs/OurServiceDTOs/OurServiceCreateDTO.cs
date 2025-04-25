@@ -11,11 +11,11 @@ namespace ProSolution.BL.DTOs.ServiceDTOs
     {
         public string Title { get; set; }
         public string Description { get; set; }
-        public IFormFile Image { get; set; }
+        public IFormFile? Image { get; set; }
 
         public string ContentTitle { get; set; }
         public string ContentDescription { get; set; }
 
-        public IFormFile ContentImage { get; set; }
+        public IFormFile? ContentImage { get; set; }
     }
 }

@@ -338,3 +338,5 @@ C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.API\obj\Relea
 C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.API\obj\Release\net8.0\ProSolution.API.pdb
 C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.API\obj\Release\net8.0\ProSolution.API.genruntimeconfig.cache
 C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.API\obj\Release\net8.0\ref\ProSolution.API.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.API\bin\Release\net8.0\FluentValidation.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.API\bin\Release\net8.0\FluentValidation.DependencyInjectionExtensions.dll

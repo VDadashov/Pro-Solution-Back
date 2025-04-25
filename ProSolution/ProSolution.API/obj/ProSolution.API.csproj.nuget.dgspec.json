@@ -148,6 +148,14 @@
               "target": "Package",
               "version": "[14.0.0, )"
             },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
             "MailKit": {
               "target": "Package",
               "version": "[4.11.0, )"

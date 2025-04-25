@@ -6,6 +6,9 @@ using ProSolution.BL.Services.ExternalServices;
 using ProSolution.BL.Settings;
 using Microsoft.Extensions.Options;
 using ProSolution.BL.Settings;
+using ProSolution.Business.Services.InternalServices.Abstractions;
+using ProSolution.DAL.Repositories.Abstractions.ISeoRepo;
+using ProSolution.DAL.Repositories.Implementations.SeoRepo;
 
 namespace ProSolution.BL
 {
@@ -19,6 +22,18 @@ namespace ProSolution.BL
             services.AddScoped<IAppInfoService, AppInfoService>();
             services.AddScoped<IAboutService, AboutService>();
             services.AddScoped<IReviewService, ReviewService>();
+            // SEO Meta
+          
+            services.AddScoped<ISeoMetaService, SeoMetaService>();
+
+            // SEO Url
+           
+            services.AddScoped<ISeoUrlService, SeoUrlService>();
+
+            // SEO Data (AnchorText, AltText и т.д.)
+          
+            services.AddScoped<ISeoService, SEOService>();
+
         }
 
     }
