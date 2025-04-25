@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using ProSolution.BL.DTOs.BrandDTO;
+using ProSolution.BL.DTOs.BrandDTOs;
 using ProSolution.BL.DTOs.PartnerDTO;
 using ProSolution.BL.Services.ExternalServices;
 using ProSolution.BL.Services.InternalServices.Abstractions;
@@ -22,7 +23,7 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             _brandReadRepository = brandReadRepository;
         }
 
-        public async Task<Brand> CreateAsync(BrandDTO partnerDTO)
+        public async Task<Brand> CreateAsync(BrandCreateDTO partnerDTO)
         {
             if (partnerDTO.ImagePath == null || !partnerDTO.ImagePath.IsValidFile())
             {
@@ -95,6 +96,7 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
         public async Task<Brand> UpdateAsync(int id, BrandDTO partnerDTO)
         {
             Brand oldProduct = await _brandReadRepository.GetByIdAsync(id, true);
+            string path = oldProduct.ImagePath;
             if (oldProduct == null)
             {
                 throw new Exception("Bu Id-e uygun mehsul tapilmadi.");
@@ -110,7 +112,7 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             }
             else
             {
-                product.ImagePath = oldProduct.ImagePath;
+                product.ImagePath = path;
             }
             Brand product1 = _brandWriteRepository.Update(product);
             if (partnerDTO.ImagePath != null)

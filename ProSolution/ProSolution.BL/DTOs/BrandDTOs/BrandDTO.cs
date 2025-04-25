@@ -4,8 +4,9 @@ namespace ProSolution.BL.DTOs.BrandDTO
 {
     public record BrandDTO
     {
-        public IFormFile ImagePath { get; set; }
+        public IFormFile? ImagePath { get; set; }
         public string Title { get; set; }
+        public string AltText { get; set; }
         public string Description { get; set; }
     }
 }
