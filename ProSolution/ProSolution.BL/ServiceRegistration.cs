@@ -1,11 +1,6 @@
-﻿using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using ProSolution.BL.Services.InternalServices.Abstractions;
 using ProSolution.BL.Services.InternalServices.Implementations;
-using ProSolution.BL.Services.ExternalServices;
-using ProSolution.BL.Settings;
-using Microsoft.Extensions.Options;
-using ProSolution.BL.Settings;
 
 namespace ProSolution.BL
 {
