@@ -89,20 +89,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PagedResult.cs",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.Core\\Enums\\PagedResult.cs",
-              "RelativeDocumentMoniker": "ProSolution.Core\\Enums\\PagedResult.cs",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.Core\\Enums\\PagedResult.cs",
-              "RelativeToolTip": "ProSolution.Core\\Enums\\PagedResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:49:50.534Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -114,8 +117,7 @@
               "RelativeToolTip": "ProSolution.Core\\Enums\\PaginationParams.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:49:52.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T13:49:52.106Z"
             },
             {
               "$type": "Document",
@@ -127,8 +129,7 @@
               "RelativeToolTip": "ProSolution.Core\\Enums\\RaitingEnum.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:48:39.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T13:48:39.873Z"
             },
             {
               "$type": "Document",
@@ -145,6 +146,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.Core\\Enums\\PagedResult.cs",
+              "RelativeDocumentMoniker": "ProSolution.Core\\Enums\\PagedResult.cs",
+              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.Core\\Enums\\PagedResult.cs",
+              "RelativeToolTip": "ProSolution.Core\\Enums\\PagedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:49:50.534Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "ProductDiscountReadDTO.cs",
               "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\DTOs\\ProductDTOs\\ProductDiscountReadDTO.cs",
@@ -153,8 +166,7 @@
               "RelativeToolTip": "ProSolution.BL\\DTOs\\ProductDTOs\\ProductDiscountReadDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:03:29.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T13:03:29.812Z"
             },
             {
               "$type": "Document",
@@ -166,8 +178,7 @@
               "RelativeToolTip": "ProSolution.BL\\DTOs\\ProductImageDTOs\\ProductImageUpdateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:02:45.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T13:02:45.798Z"
             },
             {
               "$type": "Document",
@@ -179,8 +190,7 @@
               "RelativeToolTip": "ProSolution.BL\\DTOs\\BadgeDTOs\\BadgeListItemDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:00:00.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T13:00:00.786Z"
             },
             {
               "$type": "Document",
@@ -192,28 +202,7 @@
               "RelativeToolTip": "ProSolution.DAL\\Seed\\DbInitializer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T12:57:57.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "WhenOpened": "2025-04-24T12:57:57.052Z"
             },
             {
               "$type": "Document",
@@ -225,8 +214,7 @@
               "RelativeToolTip": "ProSolution.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-24T12:55:14.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T12:55:14.47Z"
             },
             {
               "$type": "Document",
@@ -238,8 +226,7 @@
               "RelativeToolTip": "ProSolution.DAL\\Migrations\\20250424120604_last.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T12:06:04.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T12:06:04.551Z"
             },
             {
               "$type": "Document",
@@ -251,8 +238,7 @@
               "RelativeToolTip": "ProSolution.API\\Program.cs",
               "ViewState": "AgIAAGYAAAAAAAAAAAAAAIgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T10:33:35.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T10:33:35.903Z"
             },
             {
               "$type": "Document",
@@ -276,8 +262,7 @@
               "RelativeToolTip": "ProSolution.BL\\Helpers\\RoleSeeder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T11:58:31.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T11:58:31.64Z"
             },
             {
               "$type": "Document",
@@ -289,8 +274,7 @@
               "RelativeToolTip": "ProSolution.BL\\ServiceRegistration.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T11:44:56.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T11:44:56.856Z"
             },
             {
               "$type": "Document",
@@ -302,8 +286,7 @@
               "RelativeToolTip": "ProSolution.DAL\\RepositoryRegistration.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAIwB8AAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T11:40:39.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T11:40:39.356Z"
             },
             {
               "$type": "Document",
