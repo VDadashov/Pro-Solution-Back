@@ -10,6 +10,7 @@ namespace ProSolution.DAL.Contexts
         {
         }
         public DbSet<Catagory> Catagories { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<OurService> OurServices { get; set; }
         public DbSet<Badge> Badges { get; set; }

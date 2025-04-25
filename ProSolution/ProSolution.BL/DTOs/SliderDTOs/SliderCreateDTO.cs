@@ -5,5 +5,7 @@ namespace ProSolution.BL.DTOs.SliderDTO
     public class SliderCreateDTO
     {
         public IFormFile ImagePath { get; set; }
+        public string AltText { get; set; }
+
     }
 }

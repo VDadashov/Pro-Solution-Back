@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using ProSolution.BL.DTOs.PartnerDTO;
+using ProSolution.BL.DTOs.PartnerDTOs;
 using ProSolution.BL.DTOs.SliderDTO;
 using ProSolution.BL.Services.ExternalServices;
 using ProSolution.BL.Services.InternalServices.Abstractions;
@@ -21,7 +22,7 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             _partnerReadRepository = partnerReadRepository;
         }
 
-        public async Task<Partner> CreateAsync(PartnerDTO partnerDTO)
+        public async Task<Partner> CreateAsync(PartnerCreateDTO partnerDTO)
         {
             if (partnerDTO.ImagePath == null || !partnerDTO.ImagePath.IsValidFile())
             {
@@ -100,6 +101,7 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             {
                 throw new Exception("Bu Id-e uygun mehsul tapilmadi.");
             }
+            string path = oldProduct.ImagePath;
             Partner product = _mapper.Map(partnerDTO, oldProduct);
             product.UpdateAt = DateTime.UtcNow.AddHours(4);
             product.Id = oldProduct.Id;
@@ -111,7 +113,7 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             }
             else
             {
-                product.ImagePath = oldProduct.ImagePath;
+                product.ImagePath = path;
             }
             Partner product1 = _partnerWriteRepository.Update(product);
             if (partnerDTO.ImagePath != null)

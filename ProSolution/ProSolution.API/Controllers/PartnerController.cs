@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProSolution.BL.DTOs.PartnerDTO;
+using ProSolution.BL.DTOs.PartnerDTOs;
 using ProSolution.BL.DTOs.SliderDTO;
 using ProSolution.BL.Services.InternalServices.Abstractions;
 using ProSolution.Core.Entities;
@@ -29,7 +30,7 @@ namespace ProSolution.API.Controllers
             return await _partnerService.GetAllDeletedAsync();
         }
         [HttpPost]
-        public async Task<IActionResult> Create([FromForm] PartnerDTO catagoryDto)
+        public async Task<IActionResult> Create([FromForm] PartnerCreateDTO catagoryDto)
         {
             try
             {

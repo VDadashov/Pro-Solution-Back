@@ -1,5 +1,6 @@
 ﻿using ProSolution.BL.DTOs;
 using ProSolution.BL.DTOs.SliderDTO;
+using ProSolution.BL.DTOs.SliderDTOs;
 using ProSolution.Core.Entities;
 
 namespace ProSolution.BL.Services.InternalServices.Abstractions
@@ -11,7 +12,7 @@ namespace ProSolution.BL.Services.InternalServices.Abstractions
         Task<Slider> RestoreAsync(int id);
         Task<Slider> GetByIdAsync(int id);
         Task<Slider> CreateAsync(SliderCreateDTO sliderCreateDTO);
-        Task<Slider> UpdateAsync(int id, SliderCreateDTO sliderCreateDTO);
+        Task<Slider> UpdateAsync(int id, SliderUpdateDTO sliderCreateDTO);
         Task<Slider> SoftDeleteAsync(int id);
         Task<Slider> HardDeleteAsync(int id);
     }

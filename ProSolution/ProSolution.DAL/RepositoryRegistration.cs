@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using ProSolution.DAL.Repositories.Abstractions;
+using ProSolution.DAL.Repositories.Abstractions.Blog;
 using ProSolution.DAL.Repositories.Abstractions.IAbourRepo;
 using ProSolution.DAL.Repositories.Abstractions.IBadgeRepo;
 using ProSolution.DAL.Repositories.Abstractions.Review;
@@ -30,6 +32,8 @@ namespace ProSolution.DAL
             services.AddScoped<IAboutWriteRepository, AboutWriteRepository>();
             services.AddScoped<IReviewReadRepository, ReviewReadRepository>();
             services.AddScoped<IReviewWriteRepository, ReviewWriteRepository>();
+            services.AddScoped<IBlogWriteRepository, BlogWriteRepository>();
+            services.AddScoped<IBlogReadRepository, BlogReadRepository>();
 
 
         }

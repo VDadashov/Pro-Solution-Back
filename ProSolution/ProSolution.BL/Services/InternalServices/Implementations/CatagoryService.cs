@@ -19,12 +19,13 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             _mapper = mapper;
         }
 
-        public async Task<Catagory> CreateAsync(CatagoryDTO catagoryDto)
+        public async Task<Catagory> CreateAsync(CatagoryCreateDTO catagoryDto)
         {
-           Catagory catagory = _mapper.Map<Catagory>(catagoryDto);
+            Catagory catagory = _mapper.Map<Catagory>(catagoryDto);
+            catagory.ParentCatagoryId = catagoryDto.ParentCategoryId;
             catagory.CreateAt = DateTime.UtcNow.AddHours(4);
-          var res = await _catagoryWriteRepository.CreateAsync(catagory);
-           await _catagoryWriteRepository.SaveChangeAsync();
+            var res = await _catagoryWriteRepository.CreateAsync(catagory);
+            await _catagoryWriteRepository.SaveChangeAsync();
             return res;
         }
         public async Task<Catagory> UpdateAsync(int id, CatagoryDTO catagoryDto)
@@ -45,7 +46,7 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
 
         public async Task<ICollection<Catagory>> GetAllAsync()
         {
-           return await _catagoryReadRepository.GetAllAsync(false);
+            return await _catagoryReadRepository.GetAllAsync(false);
         }
 
         public async Task<ICollection<Catagory>> GetAllDeletedAsync()
@@ -99,6 +100,6 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             return res;
         }
 
-       
+
     }
 }

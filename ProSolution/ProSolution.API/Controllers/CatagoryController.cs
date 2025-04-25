@@ -28,7 +28,7 @@ namespace ProSolution.API.Controllers
             return await _catagoryService.GetAllDeletedAsync();
         }
         [HttpPost]
-        public async Task<IActionResult> Create([FromForm] CatagoryDTO catagoryDto)
+        public async Task<IActionResult> Create([FromForm] CatagoryCreateDTO catagoryDto)
         {
             try
             {

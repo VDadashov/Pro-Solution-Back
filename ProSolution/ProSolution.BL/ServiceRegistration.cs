@@ -14,6 +14,8 @@ namespace ProSolution.BL
             services.AddScoped<IAppInfoService, AppInfoService>();
             services.AddScoped<IAboutService, AboutService>();
             services.AddScoped<IReviewService, ReviewService>();
+            services.AddScoped<IBlogService, BlogService>();
+
         }
 
     }

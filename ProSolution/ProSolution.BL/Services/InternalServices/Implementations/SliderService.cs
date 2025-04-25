@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using ProSolution.BL.DTOs.SliderDTO;
+using ProSolution.BL.DTOs.SliderDTOs;
 using ProSolution.BL.Services.ExternalServices;
 using ProSolution.BL.Services.InternalServices.Abstractions;
 using ProSolution.Core.Entities;
@@ -92,13 +93,14 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             return res;
         }
 
-        public async Task<Slider> UpdateAsync(int id, SliderCreateDTO sliderCreateDTO)
+        public async Task<Slider> UpdateAsync(int id, SliderUpdateDTO sliderCreateDTO)
         {
             Slider oldProduct = await _sliderReadRepository.GetByIdAsync(id, true);
             if (oldProduct == null)
             {
                 throw new Exception("Bu Id-e uygun mehsul tapilmadi.");
             }
+            string path =oldProduct.ImagePath;
             Slider product = _mapper.Map(sliderCreateDTO, oldProduct);
             product.UpdateAt = DateTime.UtcNow.AddHours(4);
             product.Id = oldProduct.Id;
@@ -110,7 +112,7 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             }
             else
             {
-                product.ImagePath = oldProduct.ImagePath;
+                product.ImagePath = path;
             }
             Slider product1 = _sliderWriteRepository.Update(product);
             if (sliderCreateDTO.ImagePath != null)

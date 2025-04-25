@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using ProSolution.BL.DTOs.PartnerDTO;
+using ProSolution.BL.DTOs.PartnerDTOs;
 using ProSolution.Core.Entities;
 
 namespace ProSolution.BL.Profiles
@@ -9,6 +10,7 @@ namespace ProSolution.BL.Profiles
         public PartnerProfile()
         {
             CreateMap<Partner, PartnerDTO>().ReverseMap();
+            CreateMap<Partner, PartnerCreateDTO>().ReverseMap();
         }
     }
 }

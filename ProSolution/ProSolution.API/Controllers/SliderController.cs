@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using ProSolution.BL.DTOs;
 using ProSolution.BL.DTOs.SliderDTO;
+using ProSolution.BL.DTOs.SliderDTOs;
 using ProSolution.BL.Services.InternalServices.Abstractions;
 using ProSolution.BL.Services.InternalServices.Implementations;
 using ProSolution.Core.Entities;
@@ -85,7 +86,7 @@ namespace ProSolution.API.Controllers
             }
         }
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, SliderCreateDTO catagoryDto)
+        public async Task<IActionResult> Update(int id, SliderUpdateDTO catagoryDto)
         {
             try
             {

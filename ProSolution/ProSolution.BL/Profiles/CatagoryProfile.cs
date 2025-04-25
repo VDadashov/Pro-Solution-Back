@@ -9,6 +9,7 @@ namespace ProSolution.BL.Profiles
         public CatagoryProfile()
         {
             CreateMap<Catagory, CatagoryDTO>().ReverseMap();
+            CreateMap<Catagory, CatagoryCreateDTO>().ReverseMap();
         }
     }
 }
