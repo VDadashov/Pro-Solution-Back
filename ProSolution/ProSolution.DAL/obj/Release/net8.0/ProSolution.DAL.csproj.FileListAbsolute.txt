@@ -16,6 +16,7 @@ C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.DAL\o
 C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.pdb
 C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.genruntimeconfig.cache
 C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.DAL\obj\Release\net8.0\ref\ProSolution.DAL.dll
+<<<<<<< HEAD
 C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\bin\Release\net8.0\ProSolution.DAL.deps.json
 C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\bin\Release\net8.0\ProSolution.DAL.runtimeconfig.json
 C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\bin\Release\net8.0\ProSolution.DAL.dll
@@ -34,3 +35,23 @@ C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.D
 C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.pdb
 C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.genruntimeconfig.cache
 C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\obj\Release\net8.0\ref\ProSolution.DAL.dll
+=======
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.DAL\bin\Release\net8.0\ProSolution.DAL.deps.json
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.DAL\bin\Release\net8.0\ProSolution.DAL.runtimeconfig.json
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.DAL\bin\Release\net8.0\ProSolution.DAL.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.DAL\bin\Release\net8.0\ProSolution.DAL.pdb
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.DAL\bin\Release\net8.0\ProSolution.Core.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.DAL\bin\Release\net8.0\ProSolution.Core.pdb
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.csproj.AssemblyReference.cache
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.AssemblyInfoInputs.cache
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.AssemblyInfo.cs
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.sourcelink.json
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolut.03F4CC89.Up2Date
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.DAL\obj\Release\net8.0\refint\ProSolution.DAL.dll
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.pdb
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.genruntimeconfig.cache
+C:\Users\ikinci.el.noutbuklar\Desktop\last\ProSolution\ProSolution.DAL\obj\Release\net8.0\ref\ProSolution.DAL.dll
+>>>>>>> 0f3afdafb2e880e549aa277ae1800d782dcda617
