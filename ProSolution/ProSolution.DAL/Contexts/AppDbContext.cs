@@ -20,7 +20,9 @@ namespace ProSolution.DAL.Contexts
         public DbSet<Brand> Brands { get; set; }
         public DbSet<ProductImage> ProductImages { get; set; }
         public DbSet<Review> Reviews { get; set; }
-
+        public DbSet<SeoUrl> SeoUrls { get; set; }
+        public DbSet<SeoData> SeoDatas { get; set; }
+        public DbSet<SeoMeta> SeoMetas { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             

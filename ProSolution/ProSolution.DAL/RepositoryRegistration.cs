@@ -1,12 +1,14 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using ProSolution.DAL.Repositories.Abstractions.IAbourRepo;
 using ProSolution.DAL.Repositories.Abstractions.IBadgeRepo;
+using ProSolution.DAL.Repositories.Abstractions.ISeoRepo;
 using ProSolution.DAL.Repositories.Abstractions.Review;
 using ProSolution.DAL.Repositories.Abstractions.Service;
 using ProSolution.DAL.Repositories.Implementations;
 using ProSolution.DAL.Repositories.Implementations.AboutRepo;
 using ProSolution.DAL.Repositories.Implementations.BadgeRepo;
 using ProSolution.DAL.Repositories.Implementations.Review;
+using ProSolution.DAL.Repositories.Implementations.SeoRepo;
 using ProSolution.DAL.Repositories.Implementations.Service;
 using System;
 using System.Collections.Generic;
@@ -30,6 +32,13 @@ namespace ProSolution.DAL
             services.AddScoped<IAboutWriteRepository, AboutWriteRepository>();
             services.AddScoped<IReviewReadRepository, ReviewReadRepository>();
             services.AddScoped<IReviewWriteRepository, ReviewWriteRepository>();
+            services.AddScoped<ISeoReadRepository, SeoReadRepository>();
+            services.AddScoped<ISeoWriteRepository, SeoWriteRepository>();
+            services.AddScoped<ISeoMetaReadRepository, SeoMetaReadRepository>();
+            services.AddScoped<ISeoMetaWriteRepository, SeoMetaWriteRepository>();
+            services.AddScoped<ISeoUrlReadRepository, SeoUrlReadRepository>();
+            services.AddScoped<ISeoUrlWriteRepository, SeoUrlWriteRepository>();
+
 
 
         }
