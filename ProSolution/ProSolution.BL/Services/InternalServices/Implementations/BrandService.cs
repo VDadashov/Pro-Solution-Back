@@ -4,6 +4,7 @@ using ProSolution.BL.DTOs.PartnerDTO;
 using ProSolution.BL.Services.ExternalServices;
 using ProSolution.BL.Services.InternalServices.Abstractions;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 using ProSolution.DAL.Repositories.Abstractions;
 using ProSolution.DAL.Repositories.Implementations;
 
@@ -55,6 +56,23 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             }
             return slider;
         }
+
+        //PAGINATION BRAND
+        public async Task<PagedResult<Brand>> GetPaginatedAsync(PaginationParams @params)
+        {
+            var allBrands = await _brandReadRepository.GetAllAsync(false);
+
+            var filtered = allBrands
+                .OrderByDescending(b => b.CreateAt) 
+                .Skip((@params.PageNumber - 1) * @params.PageSize)
+                .Take(@params.PageSize)
+                .ToList();
+
+            int totalCount = allBrands.Count;
+
+            return new PagedResult<Brand>(filtered, totalCount, @params.PageNumber, @params.PageSize);
+        }
+
 
         public async Task<Brand> HardDeleteAsync(int id)
         {

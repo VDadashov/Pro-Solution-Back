@@ -4,6 +4,7 @@ using ProSolution.BL.DTOs.ProductDTOs;
 using ProSolution.BL.Services.ExternalServices;
 using ProSolution.BL.Services.InternalServices.Abstractions;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 using ProSolution.DAL.Repositories.Abstractions;
 using ProSolution.DAL.Repositories.Abstractions.Product;
 
@@ -253,6 +254,28 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             return res;
         }
 
-       
+        //PAGINATION PRODUCT
+        public async Task<PagedResult<ProductReadDTO>> GetPaginatedAsync(PaginationParams @params)
+        {
+            var allProducts = await _productReadRepository.GetAllAsync(false, ["Catagory", "ProductImages"]);
+
+            var filtered = allProducts
+                .OrderByDescending(p => p.CreateAt) 
+                .Skip((@params.PageNumber - 1) * @params.PageSize)
+                .Take(@params.PageSize)
+                .ToList();
+
+            var totalCount = allProducts.Count;
+
+            var mapped = _mapper.Map<List<ProductReadDTO>>(filtered);
+
+            return new PagedResult<ProductReadDTO>(
+                mapped,
+                totalCount,
+                @params.PageNumber,
+                @params.PageSize
+            );
+        }
+
     }
 }

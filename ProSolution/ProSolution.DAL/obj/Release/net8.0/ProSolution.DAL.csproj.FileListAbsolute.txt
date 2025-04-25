@@ -16,3 +16,21 @@ C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.DAL\o
 C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.pdb
 C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.genruntimeconfig.cache
 C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.DAL\obj\Release\net8.0\ref\ProSolution.DAL.dll
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\bin\Release\net8.0\ProSolution.DAL.deps.json
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\bin\Release\net8.0\ProSolution.DAL.runtimeconfig.json
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\bin\Release\net8.0\ProSolution.DAL.dll
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\bin\Release\net8.0\ProSolution.DAL.pdb
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\bin\Release\net8.0\ProSolution.Core.dll
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\bin\Release\net8.0\ProSolution.Core.pdb
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.csproj.AssemblyReference.cache
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.AssemblyInfoInputs.cache
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.AssemblyInfo.cs
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.sourcelink.json
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolut.03F4CC89.Up2Date
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.dll
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\obj\Release\net8.0\refint\ProSolution.DAL.dll
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.pdb
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\obj\Release\net8.0\ProSolution.DAL.genruntimeconfig.cache
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.DAL\obj\Release\net8.0\ref\ProSolution.DAL.dll

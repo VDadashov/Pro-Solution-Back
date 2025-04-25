@@ -4,6 +4,7 @@ using ProSolution.BL.DTOs.BadgeDTOs;
 using ProSolution.BL.DTOs.ServiceDTOs;
 using ProSolution.BL.Services.InternalServices.Abstractions;
 using ProSolution.BL.Services.InternalServices.Implementations;
+using ProSolution.Core.Enums;
 
 namespace ProSolution.API.Controllers
 {
@@ -21,9 +22,15 @@ namespace ProSolution.API.Controllers
         {
             return await _badgeService.GetAllDeletedAsync();
         }
+        //PAGINATION
+        [HttpGet("Paginated")]
+        public async Task<IActionResult> GetPaginated([FromQuery] PaginationParams @params)
+        {
+            var result = await _badgeService.GetPaginatedAsync(@params);
+            return Ok(result);
+        }
 
 
-       
         [HttpPost]
         public async Task<IActionResult> Create([FromForm] BadgeCreateDTO CreateDTO)
         {

@@ -4,6 +4,7 @@ using ProSolution.BL.DTOs.PartnerDTO;
 using ProSolution.BL.DTOs.SliderDTO;
 using ProSolution.BL.Services.InternalServices.Abstractions;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 
 namespace ProSolution.API.Controllers
 {
@@ -56,6 +57,15 @@ namespace ProSolution.API.Controllers
                 return StatusCode(StatusCodes.Status400BadRequest, ex.Message);
             }
         }
+        //PAGINATION GET 
+        [HttpGet("Paginated")]
+        public async Task<IActionResult> GetPaginated([FromQuery] PaginationParams @params)
+        {
+            var result = await _partnerService.GetPaginatedAsync(@params);
+            return Ok(result);
+        }
+
+
         [HttpDelete("{id}Soft")]
         public async Task<IActionResult> SoftDelete(int id)
         {

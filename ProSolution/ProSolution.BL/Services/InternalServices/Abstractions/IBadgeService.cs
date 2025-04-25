@@ -1,5 +1,6 @@
 ﻿using ProSolution.BL.DTOs.BadgeDTOs;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,5 +18,7 @@ namespace ProSolution.BL.Services.InternalServices.Abstractions
         Task<Badge> UpdateAsync(int id, BadgeUpdateDTO updateDTO);
         Task<Badge> SoftDeleteAsync(int id);
         Task<Badge> HardDeleteAsync(int id);
+        Task<PagedResult<BadgeListItemDTO>> GetPaginatedAsync(PaginationParams @params);
+
     }
 }

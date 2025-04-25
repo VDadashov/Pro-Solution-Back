@@ -3,6 +3,7 @@ using ProSolution.BL.DTOs.SliderDTO;
 using ProSolution.BL.Services.ExternalServices;
 using ProSolution.BL.Services.InternalServices.Abstractions;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 using ProSolution.DAL.Repositories.Abstractions.Slider;
 
 namespace ProSolution.BL.Services.InternalServices.Implementations
@@ -55,6 +56,22 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             }
             return slider;
         }
+        //PAGINATION SLIDER
+        public async Task<PagedResult<Slider>> GetPaginatedAsync(PaginationParams @params)
+        {
+            var allSliders = await _sliderReadRepository.GetAllAsync(false);
+
+            var filtered = allSliders
+                .OrderByDescending(s => s.CreateAt)
+                .Skip((@params.PageNumber - 1) * @params.PageSize)
+                .Take(@params.PageSize)
+                .ToList();
+
+            int totalCount = allSliders.Count;
+
+            return new PagedResult<Slider>(filtered, totalCount, @params.PageNumber, @params.PageSize);
+        }
+
 
         public async Task<Slider> HardDeleteAsync(int id)
         {

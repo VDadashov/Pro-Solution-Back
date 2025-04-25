@@ -3,6 +3,7 @@ using ProSolution.BL.DTOs.BadgeDTOs;
 using ProSolution.BL.Services.ExternalServices;
 using ProSolution.BL.Services.InternalServices.Abstractions;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 using ProSolution.DAL.Repositories.Abstractions.IBadgeRepo;
 using ProSolution.DAL.Repositories.Abstractions.Service;
 using ProSolution.DAL.Repositories.Implementations.Service;
@@ -46,6 +47,22 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             var badges = await _badgeReadRepository.GetAllAsync(true);
             return _mapper.Map<ICollection<BadgeListItemDTO>>(badges);
         }
+
+        public async Task<PagedResult<BadgeListItemDTO>> GetPaginatedAsync(PaginationParams @params)
+        {
+            var allBadges = await _badgeReadRepository.GetAllAsync(false);
+
+            var filtered = allBadges
+                .OrderByDescending(b => b.CreateAt)
+                .Skip((@params.PageNumber - 1) * @params.PageSize)
+                .Take(@params.PageSize)
+                .ToList();
+
+            var mapped = _mapper.Map<List<BadgeListItemDTO>>(filtered);
+
+            return new PagedResult<BadgeListItemDTO>(mapped, allBadges.Count, @params.PageNumber, @params.PageSize);
+        }
+
 
         public async Task<Badge> HardDeleteAsync(int id)
         {

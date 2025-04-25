@@ -1,5 +1,6 @@
 ﻿using ProSolution.BL.DTOs.CatagoryDTOs;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 
 namespace ProSolution.BL.Services.InternalServices.Abstractions
 {
@@ -13,5 +14,7 @@ namespace ProSolution.BL.Services.InternalServices.Abstractions
         Task<Catagory> UpdateAsync(int id, CatagoryDTO catagoryDto);
         Task<Catagory> SoftDeleteAsync(int id);
         Task<Catagory> HardDeleteAsync(int id);
+        Task<PagedResult<Catagory>> GetPaginatedAsync(PaginationParams @params);
+
     }
 }

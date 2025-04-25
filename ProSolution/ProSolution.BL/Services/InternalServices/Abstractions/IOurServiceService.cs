@@ -1,6 +1,7 @@
 ﻿using ProSolution.BL.DTOs;
 using ProSolution.BL.DTOs.ServiceDTOs;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,8 @@ namespace ProSolution.BL.Services.InternalServices.Abstractions
         Task<OurService> SoftDeleteAsync(int id);
         Task<OurService> HardDeleteAsync(int id);
         Task<ICollection<OurServiceListItemDTO>> SearchServicestsAsync(string search);
+        Task<PagedResult<OurServiceListItemDTO>> GetPaginatedAsync(PaginationParams @params);
+
     }
-    
+
 }

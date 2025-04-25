@@ -4,6 +4,7 @@ using ProSolution.BL.DTOs.ServiceDTOs;
 using ProSolution.BL.Services.ExternalServices;
 using ProSolution.BL.Services.InternalServices.Abstractions;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 using ProSolution.DAL.Repositories.Abstractions.Service;
 
 
@@ -127,6 +128,21 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             }
             var result = _mapper.Map<ICollection<OurServiceListItemDTO>>(query);
             return result;
+        }
+        //PAGINATION OURSERVICE
+        public async Task<PagedResult<OurServiceListItemDTO>> GetPaginatedAsync(PaginationParams @params)
+        {
+            var allServices = await _ourSeriviceReadRepository.GetAllAsync(false);
+
+            var filtered = allServices
+                .OrderByDescending(s => s.CreateAt)
+                .Skip((@params.PageNumber - 1) * @params.PageSize)
+                .Take(@params.PageSize)
+                .ToList();
+
+            var mapped = _mapper.Map<List<OurServiceListItemDTO>>(filtered);
+
+            return new PagedResult<OurServiceListItemDTO>(mapped, allServices.Count, @params.PageNumber, @params.PageSize);
         }
 
     }

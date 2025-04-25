@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using ProSolution.BL.DTOs.CatagoryDTOs;
 using ProSolution.BL.Services.InternalServices.Abstractions;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 
 namespace ProSolution.API.Controllers
 {
@@ -22,6 +23,15 @@ namespace ProSolution.API.Controllers
         {
             return await _catagoryService.GetAllAsync();
         }
+        //PAGINATION
+        [HttpGet("Paginated")]
+        public async Task<IActionResult> GetPaginated([FromQuery] PaginationParams @params)
+        {
+            var result = await _catagoryService.GetPaginatedAsync(@params);
+            return Ok(result);
+        }
+
+
         [HttpGet("Deleted")]
         public async Task<ICollection<Catagory>> GetAllDeleted()
         {

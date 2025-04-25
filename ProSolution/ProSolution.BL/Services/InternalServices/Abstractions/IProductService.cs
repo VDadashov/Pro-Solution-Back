@@ -1,5 +1,6 @@
 ﻿using ProSolution.BL.DTOs.ProductDTOs;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 
 namespace ProSolution.BL.Services.InternalServices.Abstractions
 {
@@ -19,5 +20,7 @@ namespace ProSolution.BL.Services.InternalServices.Abstractions
         Task<Product> SoftDeleteAsync(int id);
         Task<Product> HardDeleteAsync(int id);
         Task<Product> RestoreAsync(int id);
+        Task<PagedResult<ProductReadDTO>> GetPaginatedAsync(PaginationParams @params);
+
     }
 }

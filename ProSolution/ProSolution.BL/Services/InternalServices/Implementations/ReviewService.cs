@@ -3,6 +3,7 @@ using ProSolution.BL.DTOs.CatagoryDTOs;
 using ProSolution.BL.DTOs.ReviewDTOs;
 using ProSolution.BL.Services.InternalServices.Abstractions;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 using ProSolution.DAL.Repositories.Abstractions.Review;
 
 namespace ProSolution.BL.Services.InternalServices.Implementations
@@ -49,6 +50,30 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             }
             return catagory;
         }
+
+        //PAGINATION REVIEW
+        public async Task<PagedResult<Review>> GetPaginatedAsync(PaginationParams @params, int? productId = null)
+        {
+            var allReviews = await _reviewReadRepository.GetAllAsync(false);
+
+            if (productId != null)
+            {
+                allReviews = allReviews
+                    .Where(r => r.ProductId == productId)
+                    .ToList();
+            }
+
+            var filtered = allReviews
+                .OrderByDescending(r => r.CreateAt)
+                .Skip((@params.PageNumber - 1) * @params.PageSize)
+                .Take(@params.PageSize)
+                .ToList();
+
+            int totalCount = allReviews.Count;
+
+            return new PagedResult<Review>(filtered, totalCount, @params.PageNumber, @params.PageSize);
+        }
+
 
         public async Task<Review> HardDeleteAsync(int id)
         {

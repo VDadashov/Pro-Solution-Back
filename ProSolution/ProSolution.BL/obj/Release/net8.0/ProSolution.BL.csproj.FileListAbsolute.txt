@@ -16,3 +16,21 @@ C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\ob
 C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\obj\Release\net8.0\refint\ProSolution.BL.dll
 C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\obj\Release\net8.0\ProSolution.BL.pdb
 C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.BL\obj\Release\net8.0\ref\ProSolution.BL.dll
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.BL\bin\Release\net8.0\ProSolution.BL.deps.json
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.BL\bin\Release\net8.0\ProSolution.BL.dll
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.BL\bin\Release\net8.0\ProSolution.BL.pdb
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.BL\bin\Release\net8.0\ProSolution.Core.dll
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.BL\bin\Release\net8.0\ProSolution.DAL.dll
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.BL\bin\Release\net8.0\ProSolution.DAL.pdb
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.BL\bin\Release\net8.0\ProSolution.Core.pdb
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.BL\obj\Release\net8.0\ProSolution.BL.csproj.AssemblyReference.cache
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.BL\obj\Release\net8.0\ProSolution.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.BL\obj\Release\net8.0\ProSolution.BL.AssemblyInfoInputs.cache
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.BL\obj\Release\net8.0\ProSolution.BL.AssemblyInfo.cs
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.BL\obj\Release\net8.0\ProSolution.BL.csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.BL\obj\Release\net8.0\ProSolution.BL.sourcelink.json
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.BL\obj\Release\net8.0\ProSolut.D4361D3A.Up2Date
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.BL\obj\Release\net8.0\ProSolution.BL.dll
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.BL\obj\Release\net8.0\refint\ProSolution.BL.dll
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.BL\obj\Release\net8.0\ProSolution.BL.pdb
+C:\Users\admin\OneDrive\İş masası\Pro-Solution-Back\ProSolution\ProSolution.BL\obj\Release\net8.0\ref\ProSolution.BL.dll

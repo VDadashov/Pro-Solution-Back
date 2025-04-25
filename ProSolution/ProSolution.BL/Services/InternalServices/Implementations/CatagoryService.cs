@@ -2,6 +2,7 @@
 using ProSolution.BL.DTOs.CatagoryDTOs;
 using ProSolution.BL.Services.InternalServices.Abstractions;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 using ProSolution.DAL.Repositories.Abstractions;
 
 namespace ProSolution.BL.Services.InternalServices.Implementations
@@ -98,7 +99,21 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             await _catagoryWriteRepository.SaveChangeAsync();
             return res;
         }
+        //PAGINATION CATAGORY
+        public async Task<PagedResult<Catagory>> GetPaginatedAsync(PaginationParams @params)
+        {
+            var allCategories = await _catagoryReadRepository.GetAllAsync(false);
 
-       
+            var filtered = allCategories
+                .OrderByDescending(c => c.CreateAt)
+                .Skip((@params.PageNumber - 1) * @params.PageSize)
+                .Take(@params.PageSize)
+                .ToList();
+
+            int totalCount = allCategories.Count;
+
+            return new PagedResult<Catagory>(filtered, totalCount, @params.PageNumber, @params.PageSize);
+        }
+ 
     }
 }
