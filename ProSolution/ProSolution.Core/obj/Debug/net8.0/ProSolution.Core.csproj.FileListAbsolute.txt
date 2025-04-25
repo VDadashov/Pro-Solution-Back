@@ -45,3 +45,16 @@ C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.Core\
 C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.Core\obj\Debug\net8.0\ProSolution.Core.pdb
 C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.Core\obj\Debug\net8.0\ref\ProSolution.Core.dll
 C:\Users\ikinci.el.noutbuklar\Desktop\Pro-Solution\ProSolution\ProSolution.Core\obj\Debug\net8.0\ProSolution.Core.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\Pro-Solution-Back\ProSolution\ProSolution.Core\obj\Debug\net8.0\ProSolution.Core.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\Pro-Solution-Back\ProSolution\ProSolution.Core\obj\Debug\net8.0\ProSolution.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\Pro-Solution-Back\ProSolution\ProSolution.Core\obj\Debug\net8.0\ProSolution.Core.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\Pro-Solution-Back\ProSolution\ProSolution.Core\obj\Debug\net8.0\ProSolution.Core.AssemblyInfo.cs
+C:\Users\ACER\Desktop\Pro-Solution-Back\ProSolution\ProSolution.Core\obj\Debug\net8.0\ProSolution.Core.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\Pro-Solution-Back\ProSolution\ProSolution.Core\obj\Debug\net8.0\ProSolution.Core.sourcelink.json
+C:\Users\ACER\Desktop\Pro-Solution-Back\ProSolution\ProSolution.Core\obj\Debug\net8.0\ProSolution.Core.dll
+C:\Users\ACER\Desktop\Pro-Solution-Back\ProSolution\ProSolution.Core\obj\Debug\net8.0\refint\ProSolution.Core.dll
+C:\Users\ACER\Desktop\Pro-Solution-Back\ProSolution\ProSolution.Core\obj\Debug\net8.0\ProSolution.Core.pdb
+C:\Users\ACER\Desktop\Pro-Solution-Back\ProSolution\ProSolution.Core\bin\Debug\net8.0\ProSolution.Core.deps.json
+C:\Users\ACER\Desktop\Pro-Solution-Back\ProSolution\ProSolution.Core\bin\Debug\net8.0\ProSolution.Core.dll
+C:\Users\ACER\Desktop\Pro-Solution-Back\ProSolution\ProSolution.Core\bin\Debug\net8.0\ProSolution.Core.pdb
+C:\Users\ACER\Desktop\Pro-Solution-Back\ProSolution\ProSolution.Core\obj\Debug\net8.0\ref\ProSolution.Core.dll
