@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProSolution.BL.DTOs.BrandDTO;
+using ProSolution.BL.DTOs.BrandDTOs;
+using ProSolution.BL.DTOs.CatagoryDTOs;
 using ProSolution.BL.DTOs.PartnerDTO;
 using ProSolution.BL.Services.InternalServices.Abstractions;
 using ProSolution.BL.Services.InternalServices.Implementations;
@@ -30,7 +32,7 @@ namespace ProSolution.API.Controllers
             return await _brandService.GetAllDeletedAsync();
         }
         [HttpPost]
-        public async Task<IActionResult> Create([FromForm] BrandDTO catagoryDto)
+        public async Task<IActionResult> Create([FromForm] BrandCreateDTO catagoryDto)
         {
 
             return StatusCode(StatusCodes.Status201Created, await _brandService.CreateAsync(catagoryDto));
@@ -74,17 +76,32 @@ namespace ProSolution.API.Controllers
         public async Task<IActionResult> Update(int id, BrandDTO catagoryDto)
         {
 
-            return StatusCode(StatusCodes.Status200OK, await _brandService.UpdateAsync(id, catagoryDto));
+            try
+            {
+                return StatusCode(StatusCodes.Status200OK, await _brandService.UpdateAsync(id, catagoryDto));
 
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, ex.Message);
+            }
 
         }
         [HttpPut("{id}Restore")]
         public async Task<IActionResult> Restore(int id)
         {
 
-            return StatusCode(StatusCodes.Status200OK, await _brandService.RestoreAsync(id));
+           
 
+            try
+            {
+                return StatusCode(StatusCodes.Status200OK, await _brandService.RestoreAsync(id));
 
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, ex.Message);
+            }
         }
     }
 }
