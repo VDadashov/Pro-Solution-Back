@@ -1,8 +1,10 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\",
   "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
     {
       "AbsoluteMoniker": "D:0:0:{E043CD50-A327-4367-BA73-34FC55CE4EF6}|ProSolution.Core\\ProSolution.Core.csproj|c:\\users\\admin\\onedrive\\\u0130\u015F masas\u0131\\pro-solution-back\\prosolution\\prosolution.core\\enums\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E043CD50-A327-4367-BA73-34FC55CE4EF6}|ProSolution.Core\\ProSolution.Core.csproj|solutionrelative:prosolution.core\\enums\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -180,87 +182,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|c:\\users\\admin\\onedrive\\\u0130\u015F masas\u0131\\pro-solution-back\\prosolution\\prosolution.dal\\migrations\\20250424102940_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-=======
-  "WorkspaceRootPath": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.bl\\dtos\\productdtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\dtos\\productdtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E043CD50-A327-4367-BA73-34FC55CE4EF6}|ProSolution.Core\\ProSolution.Core.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.core\\enums\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E043CD50-A327-4367-BA73-34FC55CE4EF6}|ProSolution.Core\\ProSolution.Core.csproj|solutionrelative:prosolution.core\\enums\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E043CD50-A327-4367-BA73-34FC55CE4EF6}|ProSolution.Core\\ProSolution.Core.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.core\\enums\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E043CD50-A327-4367-BA73-34FC55CE4EF6}|ProSolution.Core\\ProSolution.Core.csproj|solutionrelative:prosolution.core\\enums\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E043CD50-A327-4367-BA73-34FC55CE4EF6}|ProSolution.Core\\ProSolution.Core.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.core\\enums\\raitingenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E043CD50-A327-4367-BA73-34FC55CE4EF6}|ProSolution.Core\\ProSolution.Core.csproj|solutionrelative:prosolution.core\\enums\\raitingenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.bl\\dtos\\productdtos\\productdiscountreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\dtos\\productdtos\\productdiscountreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.bl\\dtos\\productimagedtos\\productimageupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\dtos\\productimagedtos\\productimageupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.bl\\dtos\\badgedtos\\badgelistitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\dtos\\badgedtos\\badgelistitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.bl\\helpers\\roleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\helpers\\roleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.dal\\seed\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|solutionrelative:prosolution.dal\\seed\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.dal\\repositoryregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|solutionrelative:prosolution.dal\\repositoryregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.bl\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|solutionrelative:prosolution.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|solutionrelative:prosolution.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.dal\\migrations\\20250424120604_last.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|solutionrelative:prosolution.dal\\migrations\\20250424120604_last.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|solutionrelative:prosolution.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.bl\\helpers\\addjwtconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\helpers\\addjwtconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.bl\\helpers\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\helpers\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.dal\\migrations\\20250424114910_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|solutionrelative:prosolution.dal\\migrations\\20250424114910_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.DAL\\Migrations\\20250424102409_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.dal\\migrations\\20250424102940_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
->>>>>>> 0f3afdafb2e880e549aa277ae1800d782dcda617
       "RelativeMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|solutionrelative:prosolution.dal\\migrations\\20250424102940_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -271,450 +192,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
           "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\ProductService.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\ProductService.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\ProductService.cs",
-              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\ProductService.cs",
-              "ViewState": "AgIAAPoAAAAAAAAAAAAYwAYBAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:01:19.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PartnerService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\PartnerService.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\PartnerService.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\PartnerService.cs",
-              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\PartnerService.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAYwDsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:55:19.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OurServiceService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\OurServiceService.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\OurServiceService.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\OurServiceService.cs",
-              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\OurServiceService.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAYwIMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:49:37.966Z",
-=======
-          "SelectedChildIndex": 3,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PagedResult.cs",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.Core\\Enums\\PagedResult.cs",
-              "RelativeDocumentMoniker": "ProSolution.Core\\Enums\\PagedResult.cs",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.Core\\Enums\\PagedResult.cs",
-              "RelativeToolTip": "ProSolution.Core\\Enums\\PagedResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:49:50.534Z",
->>>>>>> 0f3afdafb2e880e549aa277ae1800d782dcda617
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-<<<<<<< HEAD
-              "Title": "CatagoryService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\CatagoryService.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\CatagoryService.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\CatagoryService.cs",
-              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\CatagoryService.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAIwG0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:32:25.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PaginationParams.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Enums\\PaginationParams.cs",
-              "RelativeDocumentMoniker": "ProSolution.Core\\Enums\\PaginationParams.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Enums\\PaginationParams.cs",
-              "RelativeToolTip": "ProSolution.Core\\Enums\\PaginationParams.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:03:46.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReviewService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\ReviewService.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\ReviewService.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\ReviewService.cs",
-              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\ReviewService.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAwDUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:06:41.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SliderService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\SliderService.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\SliderService.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\SliderService.cs",
-              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\SliderService.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAgwDoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:23:41.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BadgeController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\BadgeController.cs",
-              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\BadgeController.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\BadgeController.cs",
-              "RelativeToolTip": "ProSolution.API\\Controllers\\BadgeController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwBgAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:06:42.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BrandController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\BrandController.cs",
-              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\BrandController.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\BrandController.cs",
-              "RelativeToolTip": "ProSolution.API\\Controllers\\BrandController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAuwDYAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:24:03.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CatagoryController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\CatagoryController.cs",
-              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\CatagoryController.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\CatagoryController.cs",
-              "RelativeToolTip": "ProSolution.API\\Controllers\\CatagoryController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:28:10.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SliderController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\SliderController.cs",
-              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\SliderController.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\SliderController.cs",
-              "RelativeToolTip": "ProSolution.API\\Controllers\\SliderController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAgwDwAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:21:33.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ReviewController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\ReviewController.cs",
-              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\ReviewController.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\ReviewController.cs",
-              "RelativeToolTip": "ProSolution.API\\Controllers\\ReviewController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAowDcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:07:52.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "ProSolution.API\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAgwG0AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:00:11.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PartnerController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\PartnerController.cs",
-              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\PartnerController.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\PartnerController.cs",
-              "RelativeToolTip": "ProSolution.API\\Controllers\\PartnerController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAgwDsAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:49:09.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "OurServiceController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\OurServiceController.cs",
-              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\OurServiceController.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\OurServiceController.cs",
-              "RelativeToolTip": "ProSolution.API\\Controllers\\OurServiceController.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAgwHQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:40:45.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IOurServiceService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IOurServiceService.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IOurServiceService.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IOurServiceService.cs",
-              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IOurServiceService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAzwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:49:22.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ISliderService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\ISliderService.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\ISliderService.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\ISliderService.cs",
-              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\ISliderService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:23:32.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ContactUsController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\ContactUsController.cs",
-              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\ContactUsController.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\ContactUsController.cs",
-              "RelativeToolTip": "ProSolution.API\\Controllers\\ContactUsController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:09:22.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ICatagoryService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\ICatagoryService.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\ICatagoryService.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\ICatagoryService.cs",
-              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\ICatagoryService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA4wBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:28:41.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "BadgeService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\BadgeService.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\BadgeService.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\BadgeService.cs",
-              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\BadgeService.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAgwEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:03:50.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IBadgeService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBadgeService.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBadgeService.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBadgeService.cs",
-              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBadgeService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:03:38.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "BadgeUpdateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\BadgeDTOs\\BadgeUpdateDTO.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\BadgeDTOs\\BadgeUpdateDTO.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\BadgeDTOs\\BadgeUpdateDTO.cs",
-              "RelativeToolTip": "ProSolution.BL\\DTOs\\BadgeDTOs\\BadgeUpdateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:02:31.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IPartnerService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IPartnerService.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IPartnerService.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IPartnerService.cs",
-              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IPartnerService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:49:28.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IBrandService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBrandService.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBrandService.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBrandService.cs",
-              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBrandService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:29:13.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\EmailService.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\EmailService.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\EmailService.cs",
-              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\EmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:32:24.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "BrandService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\BrandService.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\BrandService.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\BrandService.cs",
-              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\BrandService.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAYwEIAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:29:39.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\ServiceRegistration.cs",
-              "RelativeToolTip": "ProSolution.BL\\ServiceRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T11:44:56.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Program.cs",
-              "RelativeDocumentMoniker": "ProSolution.API\\Program.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Program.cs",
-              "RelativeToolTip": "ProSolution.API\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAABaAAAAAAAAAA==",
-=======
-              "Title": "PaginationParams.cs",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.Core\\Enums\\PaginationParams.cs",
-              "RelativeDocumentMoniker": "ProSolution.Core\\Enums\\PaginationParams.cs",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.Core\\Enums\\PaginationParams.cs",
-              "RelativeToolTip": "ProSolution.Core\\Enums\\PaginationParams.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
->>>>>>> 0f3afdafb2e880e549aa277ae1800d782dcda617
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:49:52.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 28,
-              "Title": "IReviewService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IReviewService.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IReviewService.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IReviewService.cs",
-              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IReviewService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:06:30.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ReviewDTO.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\ReviewDTOs\\ReviewDTO.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\ReviewDTOs\\ReviewDTO.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\ReviewDTOs\\ReviewDTO.cs",
-              "RelativeToolTip": "ProSolution.BL\\DTOs\\ReviewDTOs\\ReviewDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:03:50.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "BrandDTO.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\BrandDTOs\\BrandDTO.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\BrandDTOs\\BrandDTO.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\BrandDTOs\\BrandDTO.cs",
-              "RelativeToolTip": "ProSolution.BL\\DTOs\\BrandDTOs\\BrandDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:28:15.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IProductService.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IProductService.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IProductService.cs",
-              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IProductService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA5wBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:08:59.931Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -728,8 +207,410 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAvwAkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-04-25T12:09:29.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\ProductService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\ProductService.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\ProductService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\ProductService.cs",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAYwAYBAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:01:19.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PartnerService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\PartnerService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\PartnerService.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\PartnerService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\PartnerService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAYwDsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:55:19.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OurServiceService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\OurServiceService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\OurServiceService.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\OurServiceService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\OurServiceService.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAYwIMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:49:37.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CatagoryService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\CatagoryService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\CatagoryService.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\CatagoryService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\CatagoryService.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAIwG0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:32:25.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaginationParams.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Enums\\PaginationParams.cs",
+              "RelativeDocumentMoniker": "ProSolution.Core\\Enums\\PaginationParams.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Enums\\PaginationParams.cs",
+              "RelativeToolTip": "ProSolution.Core\\Enums\\PaginationParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:03:46.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReviewService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\ReviewService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\ReviewService.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\ReviewService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\ReviewService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAwDUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:06:41.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SliderService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\SliderService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\SliderService.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\SliderService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\SliderService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAgwDoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:23:41.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BadgeController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\BadgeController.cs",
+              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\BadgeController.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\BadgeController.cs",
+              "RelativeToolTip": "ProSolution.API\\Controllers\\BadgeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwBgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:06:42.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "ProSolution.API\\Controllers\\BrandController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAuwDYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:24:03.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CatagoryController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\CatagoryController.cs",
+              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\CatagoryController.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\CatagoryController.cs",
+              "RelativeToolTip": "ProSolution.API\\Controllers\\CatagoryController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:28:10.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "ProSolution.API\\Controllers\\SliderController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAgwDwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:21:33.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "ProSolution.API\\Controllers\\ReviewController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowDcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:07:52.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProSolution.API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAgwG0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:00:11.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PartnerController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\PartnerController.cs",
+              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\PartnerController.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\PartnerController.cs",
+              "RelativeToolTip": "ProSolution.API\\Controllers\\PartnerController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwDsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:49:09.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OurServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\OurServiceController.cs",
+              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\OurServiceController.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\OurServiceController.cs",
+              "RelativeToolTip": "ProSolution.API\\Controllers\\OurServiceController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAgwHQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:40:45.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IOurServiceService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IOurServiceService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IOurServiceService.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IOurServiceService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IOurServiceService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAzwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:49:22.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ISliderService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\ISliderService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\ISliderService.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\ISliderService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\ISliderService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:23:32.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ContactUsController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\ContactUsController.cs",
+              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\ContactUsController.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\ContactUsController.cs",
+              "RelativeToolTip": "ProSolution.API\\Controllers\\ContactUsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:09:22.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ICatagoryService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\ICatagoryService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\ICatagoryService.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\ICatagoryService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\ICatagoryService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA4wBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:28:41.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BadgeService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\BadgeService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\BadgeService.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\BadgeService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\BadgeService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAgwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:03:50.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IBadgeService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBadgeService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBadgeService.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBadgeService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBadgeService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:03:38.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BadgeUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\BadgeDTOs\\BadgeUpdateDTO.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\BadgeDTOs\\BadgeUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\BadgeDTOs\\BadgeUpdateDTO.cs",
+              "RelativeToolTip": "ProSolution.BL\\DTOs\\BadgeDTOs\\BadgeUpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:02:31.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IPartnerService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IPartnerService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IPartnerService.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IPartnerService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IPartnerService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:49:28.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IBrandService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBrandService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBrandService.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBrandService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBrandService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:29:13.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\EmailService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\EmailService.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\EmailService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:32:24.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BrandService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\BrandService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\BrandService.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\BrandService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\BrandService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAYwEIAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:29:39.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\ServiceRegistration.cs",
+              "RelativeToolTip": "ProSolution.BL\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T11:44:56.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Program.cs",
+              "RelativeDocumentMoniker": "ProSolution.API\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Program.cs",
+              "RelativeToolTip": "ProSolution.API\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T10:33:35.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IReviewService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IReviewService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IReviewService.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IReviewService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IReviewService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:06:30.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ReviewDTO.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\ReviewDTOs\\ReviewDTO.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\ReviewDTOs\\ReviewDTO.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\ReviewDTOs\\ReviewDTO.cs",
+              "RelativeToolTip": "ProSolution.BL\\DTOs\\ReviewDTOs\\ReviewDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:03:50.336Z"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 31,
+              "Title": "BrandDTO.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\BrandDTOs\\BrandDTO.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\BrandDTOs\\BrandDTO.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\BrandDTOs\\BrandDTO.cs",
+              "RelativeToolTip": "ProSolution.BL\\DTOs\\BrandDTOs\\BrandDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:28:15.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IProductService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IProductService.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IProductService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IProductService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA5wBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:08:59.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "PagedResult.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Enums\\PagedResult.cs",
               "RelativeDocumentMoniker": "ProSolution.Core\\Enums\\PagedResult.cs",
@@ -737,12 +618,11 @@
               "RelativeToolTip": "ProSolution.Core\\Enums\\PagedResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T08:59:38.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T08:59:38.227Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "ProductImageReadDTO.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\ProductImageDTOs\\ProductImageReadDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\ProductImageDTOs\\ProductImageReadDTO.cs",
@@ -750,12 +630,11 @@
               "RelativeToolTip": "ProSolution.BL\\DTOs\\ProductImageDTOs\\ProductImageReadDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:02:46.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T09:02:46.836Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "ProductUpdateDTO.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\ProductDTOs\\ProductUpdateDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\ProductDTOs\\ProductUpdateDTO.cs",
@@ -763,12 +642,11 @@
               "RelativeToolTip": "ProSolution.BL\\DTOs\\ProductDTOs\\ProductUpdateDTO.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAA2wA4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:02:31.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T09:02:31.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "ProductReadDTO.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\ProductDTOs\\ProductReadDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\ProductDTOs\\ProductReadDTO.cs",
@@ -776,12 +654,11 @@
               "RelativeToolTip": "ProSolution.BL\\DTOs\\ProductDTOs\\ProductReadDTO.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAA2wBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:02:18.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T09:02:18.396Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "ProductDiscountReadDTO.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\ProductDTOs\\ProductDiscountReadDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\ProductDTOs\\ProductDiscountReadDTO.cs",
@@ -789,12 +666,11 @@
               "RelativeToolTip": "ProSolution.BL\\DTOs\\ProductDTOs\\ProductDiscountReadDTO.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA0wBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:02:07.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T09:02:07.293Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\AuthController.cs",
@@ -802,12 +678,11 @@
               "RelativeToolTip": "ProSolution.API\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T12:00:01.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T12:00:01.034Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "AddJwtConfigurations.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Helpers\\AddJwtConfigurations.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Helpers\\AddJwtConfigurations.cs",
@@ -819,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "JwtTokenGenerator.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Helpers\\JwtTokenGenerator.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Helpers\\JwtTokenGenerator.cs",
@@ -831,95 +706,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "RoleSeeder.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Helpers\\RoleSeeder.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Helpers\\RoleSeeder.cs",
               "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Helpers\\RoleSeeder.cs",
               "RelativeToolTip": "ProSolution.BL\\Helpers\\RoleSeeder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
-=======
-              "DocumentIndex": 3,
-              "Title": "RaitingEnum.cs",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.Core\\Enums\\RaitingEnum.cs",
-              "RelativeDocumentMoniker": "ProSolution.Core\\Enums\\RaitingEnum.cs",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.Core\\Enums\\RaitingEnum.cs",
-              "RelativeToolTip": "ProSolution.Core\\Enums\\RaitingEnum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:48:39.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T11:58:31.64Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductUpdateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\DTOs\\ProductDTOs\\ProductUpdateDTO.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\ProductDTOs\\ProductUpdateDTO.cs",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\DTOs\\ProductDTOs\\ProductUpdateDTO.cs",
-              "RelativeToolTip": "ProSolution.BL\\DTOs\\ProductDTOs\\ProductUpdateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:03:32.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductDiscountReadDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\DTOs\\ProductDTOs\\ProductDiscountReadDTO.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\ProductDTOs\\ProductDiscountReadDTO.cs",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\DTOs\\ProductDTOs\\ProductDiscountReadDTO.cs",
-              "RelativeToolTip": "ProSolution.BL\\DTOs\\ProductDTOs\\ProductDiscountReadDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:03:29.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductImageUpdateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\DTOs\\ProductImageDTOs\\ProductImageUpdateDTO.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\ProductImageDTOs\\ProductImageUpdateDTO.cs",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\DTOs\\ProductImageDTOs\\ProductImageUpdateDTO.cs",
-              "RelativeToolTip": "ProSolution.BL\\DTOs\\ProductImageDTOs\\ProductImageUpdateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
->>>>>>> 0f3afdafb2e880e549aa277ae1800d782dcda617
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:02:45.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BadgeListItemDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\DTOs\\BadgeDTOs\\BadgeListItemDTO.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\BadgeDTOs\\BadgeListItemDTO.cs",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\DTOs\\BadgeDTOs\\BadgeListItemDTO.cs",
-              "RelativeToolTip": "ProSolution.BL\\DTOs\\BadgeDTOs\\BadgeListItemDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:00:00.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.DAL\\Seed\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "ProSolution.DAL\\Seed\\DbInitializer.cs",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.DAL\\Seed\\DbInitializer.cs",
-              "RelativeToolTip": "ProSolution.DAL\\Seed\\DbInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T12:57:57.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "20250424114910_second.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\Migrations\\20250424114910_second.cs",
               "RelativeDocumentMoniker": "ProSolution.DAL\\Migrations\\20250424114910_second.cs",
@@ -931,154 +730,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "RepositoryRegistration.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\RepositoryRegistration.cs",
               "RelativeDocumentMoniker": "ProSolution.DAL\\RepositoryRegistration.cs",
               "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\RepositoryRegistration.cs",
               "RelativeToolTip": "ProSolution.DAL\\RepositoryRegistration.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAIwB8AAABQAAAAAAAAAA==",
-=======
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.API\\appsettings.json",
-              "RelativeDocumentMoniker": "ProSolution.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.API\\appsettings.json",
-              "RelativeToolTip": "ProSolution.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-24T12:55:14.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20250424120604_last.cs",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.DAL\\Migrations\\20250424120604_last.cs",
-              "RelativeDocumentMoniker": "ProSolution.DAL\\Migrations\\20250424120604_last.cs",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.DAL\\Migrations\\20250424120604_last.cs",
-              "RelativeToolTip": "ProSolution.DAL\\Migrations\\20250424120604_last.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
->>>>>>> 0f3afdafb2e880e549aa277ae1800d782dcda617
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T12:06:04.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T11:40:39.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.API\\Program.cs",
-              "RelativeDocumentMoniker": "ProSolution.API\\Program.cs",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.API\\Program.cs",
-              "RelativeToolTip": "ProSolution.API\\Program.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAIgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T10:33:35.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "JwtTokenGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\Helpers\\JwtTokenGenerator.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Helpers\\JwtTokenGenerator.cs",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\Helpers\\JwtTokenGenerator.cs",
-              "RelativeToolTip": "ProSolution.BL\\Helpers\\JwtTokenGenerator.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAcwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T11:58:45.279Z"
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "20250424102940_initial.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\Migrations\\20250424102940_initial.cs",
               "RelativeDocumentMoniker": "ProSolution.DAL\\Migrations\\20250424102940_initial.cs",
               "ToolTip": "C:\\Users\\admin\\OneDrive\\\u0130\u015F masas\u0131\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\Migrations\\20250424102940_initial.cs",
-=======
-              "DocumentIndex": 7,
-              "Title": "RoleSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\Helpers\\RoleSeeder.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Helpers\\RoleSeeder.cs",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\Helpers\\RoleSeeder.cs",
-              "RelativeToolTip": "ProSolution.BL\\Helpers\\RoleSeeder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T11:58:31.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\ServiceRegistration.cs",
-              "RelativeToolTip": "ProSolution.BL\\ServiceRegistration.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T11:44:56.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RepositoryRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.DAL\\RepositoryRegistration.cs",
-              "RelativeDocumentMoniker": "ProSolution.DAL\\RepositoryRegistration.cs",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.DAL\\RepositoryRegistration.cs",
-              "RelativeToolTip": "ProSolution.DAL\\RepositoryRegistration.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwB8AAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T11:40:39.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AddJwtConfigurations.cs",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\Helpers\\AddJwtConfigurations.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Helpers\\AddJwtConfigurations.cs",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\Helpers\\AddJwtConfigurations.cs",
-              "RelativeToolTip": "ProSolution.BL\\Helpers\\AddJwtConfigurations.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAcwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T11:59:00.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "ProSolution.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAowIYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T12:00:01.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "20250424114910_second.cs",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.DAL\\Migrations\\20250424114910_second.cs",
-              "RelativeDocumentMoniker": "ProSolution.DAL\\Migrations\\20250424114910_second.cs",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.DAL\\Migrations\\20250424114910_second.cs",
-              "RelativeToolTip": "ProSolution.DAL\\Migrations\\20250424114910_second.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T11:49:10.69Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20250424102940_initial.cs",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.DAL\\Migrations\\20250424102940_initial.cs",
-              "RelativeDocumentMoniker": "ProSolution.DAL\\Migrations\\20250424102940_initial.cs",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.DAL\\Migrations\\20250424102940_initial.cs",
->>>>>>> 0f3afdafb2e880e549aa277ae1800d782dcda617
               "RelativeToolTip": "ProSolution.DAL\\Migrations\\20250424102940_initial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1086,21 +754,12 @@
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "20250424102409_initial.cs",
               "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.DAL\\Migrations\\20250424102409_initial.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.DAL\\Migrations\\20250424102409_initial.cs",
               "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.DAL\\Migrations\\20250424102409_initial.cs",
               "RelativeToolTip": "..\\..\\..\\..\\..\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.DAL\\Migrations\\20250424102409_initial.cs",
-=======
-              "DocumentIndex": 18,
-              "Title": "20250424102409_initial.cs",
-              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.DAL\\Migrations\\20250424102409_initial.cs",
-              "RelativeDocumentMoniker": "..\\..\\Pro-Solution\\ProSolution\\ProSolution.DAL\\Migrations\\20250424102409_initial.cs",
-              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.DAL\\Migrations\\20250424102409_initial.cs",
-              "RelativeToolTip": "..\\..\\Pro-Solution\\ProSolution\\ProSolution.DAL\\Migrations\\20250424102409_initial.cs",
->>>>>>> 0f3afdafb2e880e549aa277ae1800d782dcda617
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T10:24:09.894Z"
