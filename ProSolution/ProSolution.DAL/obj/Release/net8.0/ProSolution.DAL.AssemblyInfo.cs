@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProSolution.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bd30e4d9edcae39633794447a6001219dd7ce74")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3db84c3feed2a985b5df8c6d82a3479036114c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProSolution.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProSolution.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
