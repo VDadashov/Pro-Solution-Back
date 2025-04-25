@@ -3,6 +3,33 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\",
   "Documents": [
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.api\\controllers\\seourlscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|solutionrelative:prosolution.api\\controllers\\seourlscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.bl\\services\\internalservices\\implementations\\seourlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\services\\internalservices\\implementations\\seourlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.api\\controllers\\seometascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|solutionrelative:prosolution.api\\controllers\\seometascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.bl\\services\\internalservices\\implementations\\seometaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\services\\internalservices\\implementations\\seometaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.api\\controllers\\seocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|solutionrelative:prosolution.api\\controllers\\seocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.bl\\services\\internalservices\\implementations\\seoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\services\\internalservices\\implementations\\seoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.bl\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
       "AbsoluteMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.api\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|solutionrelative:prosolution.api\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -56,6 +83,7 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.bl\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 36f3da087d90d09650f69a1bf9808c7d8ff3e131
       "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -63,6 +91,10 @@
       "RelativeMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|solutionrelative:prosolution.dal\\repositoryregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|c:\\users\\ikinci.el.noutbuklar\\desktop\\last\\prosolution\\prosolution.dal\\repositories\\implementations\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|solutionrelative:prosolution.dal\\repositories\\implementations\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
       "AbsoluteMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.dal\\seed\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|solutionrelative:prosolution.dal\\seed\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -124,6 +156,7 @@
     {
       "AbsoluteMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.dal\\migrations\\20250425102048_branddd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|solutionrelative:prosolution.dal\\migrations\\20250425102048_branddd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 36f3da087d90d09650f69a1bf9808c7d8ff3e131
     }
   ],
   "DocumentGroupContainers": [
@@ -133,6 +166,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeoUrlsController.cs",
+              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.API\\Controllers\\SeoUrlsController.cs",
+              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\SeoUrlsController.cs",
+              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.API\\Controllers\\SeoUrlsController.cs",
+              "RelativeToolTip": "ProSolution.API\\Controllers\\SeoUrlsController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:56:13.789Z",
+=======
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -146,10 +194,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T10:46:53.014Z",
+>>>>>>> 36f3da087d90d09650f69a1bf9808c7d8ff3e131
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 4,
+              "Title": "SeoController.cs",
+              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.API\\Controllers\\SeoController.cs",
+              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\SeoController.cs",
+              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.API\\Controllers\\SeoController.cs",
+              "RelativeToolTip": "ProSolution.API\\Controllers\\SeoController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowE0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:55:53.838Z",
+=======
               "DocumentIndex": 0,
               "Title": "BrandController.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\BrandController.cs",
@@ -159,11 +219,48 @@
               "ViewState": "AgIAAFIAAAAAAAAAAAAowF0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T10:31:36.757Z",
+>>>>>>> 36f3da087d90d09650f69a1bf9808c7d8ff3e131
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+<<<<<<< HEAD
+              "Title": "SeoMetasController.cs",
+              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.API\\Controllers\\SeoMetasController.cs",
+              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\SeoMetasController.cs",
+              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.API\\Controllers\\SeoMetasController.cs",
+              "RelativeToolTip": "ProSolution.API\\Controllers\\SeoMetasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:56:36.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\ServiceRegistration.cs",
+              "RelativeToolTip": "ProSolution.BL\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:51:38.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SEOService.cs",
+              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\SEOService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\SEOService.cs",
+              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\SEOService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\SEOService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAswFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:43:24.43Z",
+=======
               "Title": "BrandProfile.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Profiles\\BrandProfile.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Profiles\\BrandProfile.cs",
@@ -172,11 +269,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T10:30:50.99Z",
+>>>>>>> 36f3da087d90d09650f69a1bf9808c7d8ff3e131
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+<<<<<<< HEAD
+              "Title": "SeoMetaService.cs",
+              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\SeoMetaService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\SeoMetaService.cs",
+              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\SeoMetaService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\SeoMetaService.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAswHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:34:15.866Z",
+=======
               "Title": "IBrandService.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBrandService.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBrandService.cs",
@@ -185,11 +293,35 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAcwA4AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T10:28:15.073Z",
+>>>>>>> 36f3da087d90d09650f69a1bf9808c7d8ff3e131
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
+              "Title": "SeoUrlService.cs",
+              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\SeoUrlService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\SeoUrlService.cs",
+              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\SeoUrlService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\SeoUrlService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAswFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:48:26.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RepositoryRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.DAL\\RepositoryRegistration.cs",
+              "RelativeDocumentMoniker": "ProSolution.DAL\\RepositoryRegistration.cs",
+              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.DAL\\RepositoryRegistration.cs",
+              "RelativeToolTip": "ProSolution.DAL\\RepositoryRegistration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:50:21.342Z",
+=======
               "Title": "BrandService.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\BrandService.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\BrandService.cs",
@@ -198,11 +330,39 @@
               "ViewState": "AgIAAFwAAAAAAAAAAAAUwGkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T10:28:11.288Z",
+>>>>>>> 36f3da087d90d09650f69a1bf9808c7d8ff3e131
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+<<<<<<< HEAD
+              "Title": "ReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.DAL\\Repositories\\Implementations\\ReadRepository.cs",
+              "RelativeDocumentMoniker": "ProSolution.DAL\\Repositories\\Implementations\\ReadRepository.cs",
+              "ToolTip": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\last\\ProSolution\\ProSolution.DAL\\Repositories\\Implementations\\ReadRepository.cs",
+              "RelativeToolTip": "ProSolution.DAL\\Repositories\\Implementations\\ReadRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvzcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:42:20.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+=======
               "Title": "BrandCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\BrandDTOs\\BrandCreateDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\BrandDTOs\\BrandCreateDTO.cs",
@@ -511,6 +671,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.DAL\\Migrations\\20250424102409_initial.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T10:24:09.894Z"
+>>>>>>> 36f3da087d90d09650f69a1bf9808c7d8ff3e131
             }
           ]
         }
