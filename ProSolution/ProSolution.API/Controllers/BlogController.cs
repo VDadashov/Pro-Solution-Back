@@ -21,7 +21,7 @@ namespace ProSolution.API.Controllers
         }
 
         [HttpGet]
-        public async Task<ICollection<Blog>> GetAll()
+        public async Task<ICollection<BlogReadDTO>> GetAll()
         {
             return await _blogService.GetAllAsync();
         }

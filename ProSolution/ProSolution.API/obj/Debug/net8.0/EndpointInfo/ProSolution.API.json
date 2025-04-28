@@ -502,7 +502,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Blog"
+                    "$ref": "#/components/schemas/BlogReadDTO"
                   }
                 }
               },
@@ -510,7 +510,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Blog"
+                    "$ref": "#/components/schemas/BlogReadDTO"
                   }
                 }
               },
@@ -518,7 +518,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Blog"
+                    "$ref": "#/components/schemas/BlogReadDTO"
                   }
                 }
               }
@@ -3093,6 +3093,40 @@
         },
         "additionalProperties": false
       },
+      "BlogReadDTO": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "imagePath": {
+            "type": "string",
+            "nullable": true
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "createAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
       "Brand": {
         "type": "object",
         "properties": {
@@ -3741,6 +3775,13 @@
           "refreshTokenExpireAt": {
             "type": "string",
             "format": "date-time",
+            "nullable": true
+          },
+          "blogs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Blog"
+            },
             "nullable": true
           }
         },

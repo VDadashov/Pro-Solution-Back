@@ -37,13 +37,18 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             return res;
         }
 
-        public async Task<ICollection<Blog>> GetAllAsync()
+        public async Task<ICollection<BlogReadDTO>> GetAllAsync()
         {
-            return await _blogReadRepository.GetAllAsync(false);
+            var blogs = await _blogReadRepository.GetAllAsync(false, "User");
+
+            var blogDtos = _mapper.Map<ICollection<BlogReadDTO>>(blogs);
+
+            return blogDtos;
         }
 
         public async Task<ICollection<Blog>> GetAllDeletedAsync()
         {
+            //return await _blogReadRepository.GetAllAsync(false,"User");
             return await _blogReadRepository.GetAllAsync(true);
 
         }

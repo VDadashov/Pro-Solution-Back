@@ -7,7 +7,7 @@ namespace ProSolution.BL.Services.InternalServices.Abstractions
 {
     public interface IBlogService
     {
-        Task<ICollection<Blog>> GetAllAsync();
+        Task<ICollection<BlogReadDTO>> GetAllAsync();
         Task<ICollection<Blog>> GetAllDeletedAsync();
         Task<Blog> RestoreAsync(int id);
         Task<Blog> GetByIdAsync(int id);
