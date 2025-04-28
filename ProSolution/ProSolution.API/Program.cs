@@ -19,6 +19,9 @@ using Microsoft.AspNetCore.Identity;
 using ProSolution.BL.Helpers;
 using ProSolution.Core.Entities;
 using Microsoft.OpenApi.Models;
+using FluentValidation.AspNetCore;
+using ProSolution.BL.DTOs.SliderDTO;
+using ProSolution.BL.DTOs.SliderDTOs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -116,7 +119,12 @@ builder.Services.AddScoped<IProductService , ProductService>();
 builder.Services.AddScoped<IPartnerService , PartnerService>();
 builder.Services.AddScoped<ISliderService , SliderService>();
 builder.Services.AddScoped<IBrandService , BrandService>();
-
+builder.Services.AddControllers()
+    .AddFluentValidation(config =>
+    {
+        config.RegisterValidatorsFromAssemblyContaining<SliderCreateDTOValidator>();
+        //config.RegisterValidatorsFromAssemblyContaining<SliderUpdateDTOValidator>();
+    });
 
 
 var app = builder.Build();
