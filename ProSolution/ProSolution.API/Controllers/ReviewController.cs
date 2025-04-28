@@ -105,6 +105,19 @@ namespace ProSolution.API.Controllers
                 return StatusCode(StatusCodes.Status400BadRequest, ex.Message);
             }
         }
+        [HttpGet("{id}/Reviews")]
+        public async Task<IActionResult> GetReviewsByBlogId(int id)
+        {
+            try
+            {
+                var reviews = await _reviewService.GetReviewsByBlogIdAsync(id);
+                return StatusCode(StatusCodes.Status200OK, reviews);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, ex.Message);
+            }
+        }
 
     }
 }

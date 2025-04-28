@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("82ee31c9-56db-4c15-8fa1-398ea4338771")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProSolution.BL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c596013cc2855c638a44279bcf6ca9cb2969334")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc342ce5806db7d6b4ce0bbdb4aab2a5aaed7183")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProSolution.BL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProSolution.BL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

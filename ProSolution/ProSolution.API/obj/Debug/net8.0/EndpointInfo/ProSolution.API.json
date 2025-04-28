@@ -1289,6 +1289,29 @@
         }
       }
     },
+    "/api/Catagory/Parent/{parentId}": {
+      "get": {
+        "tags": [
+          "Catagory"
+        ],
+        "parameters": [
+          {
+            "name": "parentId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/ContactUs/contact": {
       "post": {
         "tags": [
@@ -2562,7 +2585,7 @@
                   "SaveMe": {
                     "type": "boolean"
                   },
-                  "ProductId": {
+                  "BlogId": {
                     "type": "integer",
                     "format": "int32"
                   },
@@ -2584,7 +2607,7 @@
                 "SaveMe": {
                   "style": "form"
                 },
-                "ProductId": {
+                "BlogId": {
                   "style": "form"
                 },
                 "Raiting": {
@@ -2750,6 +2773,29 @@
     },
     "/api/Review/{id}Restore": {
       "put": {
+        "tags": [
+          "Review"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Review/{id}/Reviews": {
+      "get": {
         "tags": [
           "Review"
         ],
@@ -3096,6 +3142,10 @@
       "BlogReadDTO": {
         "type": "object",
         "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
           "title": {
             "type": "string",
             "nullable": true
@@ -3545,11 +3595,11 @@
       },
       "RaitingEnum": {
         "enum": [
-          0,
           1,
           2,
           3,
-          4
+          4,
+          5
         ],
         "type": "integer",
         "format": "int32"
@@ -3624,12 +3674,12 @@
           "saveMe": {
             "type": "boolean"
           },
-          "productId": {
+          "blogId": {
             "type": "integer",
             "format": "int32"
           },
-          "product": {
-            "$ref": "#/components/schemas/Product"
+          "blog": {
+            "$ref": "#/components/schemas/Blog"
           },
           "raiting": {
             "$ref": "#/components/schemas/RaitingEnum"
@@ -3655,7 +3705,7 @@
           "saveMe": {
             "type": "boolean"
           },
-          "productId": {
+          "blogId": {
             "type": "integer",
             "format": "int32"
           },

@@ -8,7 +8,7 @@ namespace ProSolution.BL.DTOs.ReviewDTOs
         public string Name { get; set; }
         public string Email { get; set; }
         public bool SaveMe { get; set; }
-        public int ProductId { get; set; }
+        public int BlogId { get; set; }
         public RaitingEnum Raiting { get; set; }
     }
 }

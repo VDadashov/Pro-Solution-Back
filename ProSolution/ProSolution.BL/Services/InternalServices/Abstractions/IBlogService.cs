@@ -15,5 +15,6 @@ namespace ProSolution.BL.Services.InternalServices.Abstractions
         Task<Blog> UpdateAsync(int id, BlogUpdateDTO blogUpdateDTO);
         Task<Blog> SoftDeleteAsync(int id);
         Task<Blog> HardDeleteAsync(int id);
+
     }
 }

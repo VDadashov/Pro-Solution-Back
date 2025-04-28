@@ -788,6 +788,22 @@
     ]
   },
   {
+    "ContainingType": "ProSolution.API.Controllers.CatagoryController",
+    "Method": "GetByParentId",
+    "RelativePath": "api/Catagory/Parent/{parentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProSolution.API.Controllers.ContactUsController",
     "Method": "SendContactMessage",
     "RelativePath": "api/ContactUs/contact",
@@ -1583,7 +1599,7 @@
         "IsRequired": false
       },
       {
-        "Name": "ProductId",
+        "Name": "BlogId",
         "Type": "System.Int32",
         "IsRequired": false
       },
@@ -1627,6 +1643,22 @@
       {
         "Name": "catagoryDto",
         "Type": "ProSolution.BL.DTOs.ReviewDTOs.ReviewDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProSolution.API.Controllers.ReviewController",
+    "Method": "GetReviewsByBlogId",
+    "RelativePath": "api/Review/{id}/Reviews",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

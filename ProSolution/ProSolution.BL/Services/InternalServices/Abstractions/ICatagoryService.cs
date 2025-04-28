@@ -7,6 +7,7 @@ namespace ProSolution.BL.Services.InternalServices.Abstractions
     {
         Task<ICollection<Catagory>> GetAllAsync();
         Task<ICollection<Catagory>> GetAllDeletedAsync();
+        Task<ICollection<Catagory>> GetCategoriesByParentIdAsync(int parentId);
         Task<Catagory> RestoreAsync(int id);
         Task<Catagory> GetByIdAsync(int id);
         Task<Catagory> CreateAsync(CatagoryCreateDTO catagoryDto);

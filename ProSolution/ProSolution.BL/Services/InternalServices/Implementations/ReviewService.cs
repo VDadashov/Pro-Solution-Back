@@ -20,6 +20,16 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             _reviewReadRepository = reviewReadRepository;
         }
 
+        public async Task<ICollection<ReviewDTO>> GetReviewsByBlogIdAsync(int blogId)
+        {
+            var allReviews = await _reviewReadRepository.GetAllAsync(false);
+            var blogReviews = allReviews.Where(r => r.BlogId == blogId).ToList();
+
+            var reviewDTOs = _mapper.Map<ICollection<ReviewDTO>>(blogReviews);
+
+            return reviewDTOs;
+        }
+
         public async Task<Review> CreateAsync(ReviewDTO reviewDTO)
         {
             Review catagory = _mapper.Map<Review>(reviewDTO);
@@ -49,6 +59,8 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             }
             return catagory;
         }
+
+       
 
         public async Task<Review> HardDeleteAsync(int id)
         {

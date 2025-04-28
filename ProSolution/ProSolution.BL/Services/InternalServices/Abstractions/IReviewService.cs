@@ -8,6 +8,7 @@ namespace ProSolution.BL.Services.InternalServices.Abstractions
     {
         Task<ICollection<Review>> GetAllAsync();
         Task<ICollection<Review>> GetAllDeletedAsync();
+        Task<ICollection<ReviewDTO>> GetReviewsByBlogIdAsync(int blogId);
         Task<Review> RestoreAsync(int id);
         Task<Review> GetByIdAsync(int id);
         Task<Review> CreateAsync(ReviewDTO reviewDTO);

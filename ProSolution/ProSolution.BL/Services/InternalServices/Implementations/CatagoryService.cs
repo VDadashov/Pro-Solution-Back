@@ -18,7 +18,12 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             _catagoryReadRepository = catagoryReadRepository;
             _mapper = mapper;
         }
-
+        public async Task<ICollection<Catagory>> GetCategoriesByParentIdAsync(int parentId)
+        {
+            var allCategories = await _catagoryReadRepository.GetAllAsync(false);
+            var filteredCategories = allCategories.Where(c => c.ParentCatagoryId == parentId).ToList();
+            return filteredCategories;
+        }
         public async Task<Catagory> CreateAsync(CatagoryCreateDTO catagoryDto)
         {
             Catagory catagory = _mapper.Map<Catagory>(catagoryDto);
@@ -100,6 +105,6 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             return res;
         }
 
-
+       
     }
 }

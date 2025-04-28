@@ -106,5 +106,17 @@ namespace ProSolution.API.Controllers
                 return StatusCode(StatusCodes.Status400BadRequest, ex.Message);
             }
         }
+        [HttpGet("Parent/{parentId}")]
+        public async Task<IActionResult> GetByParentId(int parentId)
+        {
+            try
+            {
+                return StatusCode(StatusCodes.Status200OK, await _catagoryService.GetCategoriesByParentIdAsync(parentId));
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, ex.Message);
+            }
+        }
     }
 }

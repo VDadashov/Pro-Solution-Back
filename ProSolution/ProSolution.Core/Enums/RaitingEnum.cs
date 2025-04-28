@@ -2,7 +2,7 @@
 
 public enum RaitingEnum
 {
-    one,
+    one = 1,
     two,
     three,
     four,

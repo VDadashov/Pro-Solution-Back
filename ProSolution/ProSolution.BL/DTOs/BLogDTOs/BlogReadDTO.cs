@@ -4,6 +4,7 @@ namespace ProSolution.BL.DTOs.BLogDTOs
 {
     public class BlogReadDTO
     {
+        public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
         public string ImagePath { get; set; }
