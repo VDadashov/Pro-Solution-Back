@@ -471,6 +471,27 @@
     ]
   },
   {
+    "ContainingType": "ProSolution.API.Controllers.BlogController",
+    "Method": "GetPaginated",
+    "RelativePath": "api/Blog/Paginated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProSolution.API.Controllers.BrandController",
     "Method": "GetAll",
     "RelativePath": "api/Brand",
@@ -786,6 +807,27 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "ProSolution.API.Controllers.CatagoryController",
+    "Method": "GetPaginated",
+    "RelativePath": "api/Catagory/Paginated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ProSolution.API.Controllers.CatagoryController",
@@ -1307,8 +1349,8 @@
         "IsRequired": false
       },
       {
-        "Name": "ImagePath",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "Name": "Images",
+        "Type": "System.Collections.Generic.List\u00601[[ProSolution.BL.DTOs.ProductImageDTOs.ProductImageCreateDTO, ProSolution.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": false
       },
       {
@@ -1536,6 +1578,27 @@
   },
   {
     "ContainingType": "ProSolution.API.Controllers.ProductController",
+    "Method": "GetPaginated",
+    "RelativePath": "api/Product/Paginated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProSolution.API.Controllers.ProductController",
     "Method": "Search",
     "RelativePath": "api/Product/Search",
     "HttpMethod": "GET",
@@ -1733,6 +1796,27 @@
     ]
   },
   {
+    "ContainingType": "ProSolution.API.Controllers.ReviewController",
+    "Method": "GetPaginated",
+    "RelativePath": "api/Review/Paginated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProSolution.API.Controllers.SliderController",
     "Method": "GetAll",
     "RelativePath": "api/Slider",
@@ -1882,5 +1966,26 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "ProSolution.API.Controllers.SliderController",
+    "Method": "GetPaginated",
+    "RelativePath": "api/Slider/Paginated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

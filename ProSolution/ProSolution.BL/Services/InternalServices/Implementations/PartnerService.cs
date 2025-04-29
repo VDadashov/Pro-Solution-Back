@@ -5,6 +5,7 @@ using ProSolution.BL.DTOs.SliderDTO;
 using ProSolution.BL.Services.ExternalServices;
 using ProSolution.BL.Services.InternalServices.Abstractions;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 using ProSolution.DAL.Repositories.Abstractions;
 
 namespace ProSolution.BL.Services.InternalServices.Implementations
@@ -81,7 +82,20 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             await _partnerWriteRepository.SaveChangeAsync();
             return res;
         }
+        public async Task<PagedResult<Partner>> GetPaginatedAsync(PaginationParams @params)
+        {
+            var allCategories = await _partnerReadRepository.GetAllAsync(false);
 
+            var filtered = allCategories
+                //.OrderByDescending(c => c.CreateAt)
+                .Skip((@params.PageNumber - 1) * @params.PageSize)
+                .Take(@params.PageSize)
+                .ToList();
+
+            int totalCount = allCategories.Count;
+
+            return new PagedResult<Partner>(filtered, totalCount, @params.PageNumber, @params.PageSize);
+        }
         public async Task<Partner> SoftDeleteAsync(int id)
         {
             Partner catagory = await _partnerReadRepository.GetByIdAsync(id, true);

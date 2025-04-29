@@ -1,5 +1,7 @@
-﻿using ProSolution.BL.DTOs.ProductDTOs;
+﻿using ProSolution.BL.DTOs.BLogDTOs;
+using ProSolution.BL.DTOs.ProductDTOs;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 
 namespace ProSolution.BL.Services.InternalServices.Abstractions
 {
@@ -15,6 +17,8 @@ namespace ProSolution.BL.Services.InternalServices.Abstractions
         Task<ICollection<ProductReadDTO>> GetAllDeletedAsync();
         Task<Product> CreateAsync(ProductCreateDTO productCreateDTO);
         Task<Product> UpdateAsync(int id , ProductUpdateDTO productUpdateDTO);
+        Task<PagedResult<ProductReadDTO>> GetPaginatedAsync(PaginationParams @params);
+
         Task<ProductReadDTO> GetByIdAsync(int id);
         Task<Product> SoftDeleteAsync(int id);
         Task<Product> HardDeleteAsync(int id);

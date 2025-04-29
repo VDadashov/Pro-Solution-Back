@@ -1,11 +1,14 @@
 ﻿using AutoMapper;
+using ProSolution.BL.DTOs.BLogDTOs;
 using ProSolution.BL.DTOs.CatagoryDTOs;
 using ProSolution.BL.DTOs.ProductDTOs;
 using ProSolution.BL.Services.ExternalServices;
 using ProSolution.BL.Services.InternalServices.Abstractions;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 using ProSolution.DAL.Repositories.Abstractions;
 using ProSolution.DAL.Repositories.Abstractions.Product;
+using ProSolution.DAL.Repositories.Implementations;
 
 namespace ProSolution.BL.Services.InternalServices.Implementations
 {
@@ -88,38 +91,46 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
 
         public async Task<Product> UpdateAsync(int id, ProductUpdateDTO productUpdateDTO)
         {
-            //    Product oldProduct = await _productReadRepository.GetByIdAsync(id, true);
-            //    if (oldProduct == null)
-            //    {
-            //        throw new Exception("Bu Id-ye uygun mehsul tapilmadi.");
-            //    }
+            Product oldProduct = await _productReadRepository.GetByIdAsync(id, false, ["ProductImages", "Catagory"]);
+            if (oldProduct == null)
+            {
+                throw new Exception("Bu Id-e uygun mehsul tapilmadi.");
+            }
 
-            //    Product product = _mapper.Map(productUpdateDTO, oldProduct);
+            _mapper.Map(productUpdateDTO, oldProduct);
+            oldProduct.UpdateAt = DateTime.UtcNow.AddHours(4);
 
-            //    product.UpdateAt = DateTime.UtcNow.AddHours(4);
-            //    product.Id = oldProduct.Id;
-            //    product.CreateAt = oldProduct.CreateAt;
+            if (productUpdateDTO.Images != null && productUpdateDTO.Images.Any())
+            {
+                foreach (var oldImage in oldProduct.ProductImages)
+                {
+                    string oldImagePath = Path.Combine(Path.GetFullPath("Resource"), "ImageUpload", "Products", oldImage.ImagePath);
+                    if (File.Exists(oldImagePath))
+                    {
+                        File.Delete(oldImagePath);
+                    }
+                }
+                oldProduct.ProductImages.Clear();
 
-            //    if (productUpdateDTO.ImagePath != null)
-            //    {
-            //        product.ImagePath = await productUpdateDTO.ImagePath.SaveAsync("Products");
-            //    }
-            //    else
-            //    {
-            //        product.ImagePath = oldProduct.ImagePath;
-            //    }
+                foreach (var imageDto in productUpdateDTO.Images)
+                {
+                    if (!imageDto.File.IsValidFile())
+                    {
+                        throw new Exception("One or more files have invalid type or size.");
+                    }
 
-
-            //    Product product1 = _productWriteRepository.Update(product);
-
-            //    if (productUpdateDTO.ImagePath != null)
-            //    {
-            //        File.Delete(Path.Combine(Path.GetFullPath("Resource"), "ImageUpload", "Products", oldProduct.ImagePath));
-            //    }
-
-            //    await _productWriteRepository.SaveChangeAsync();
-            //    return product1;
-            throw new NotImplementedException();
+                    string savedPath = await imageDto.File.SaveAsync("Products");
+                    oldProduct.ProductImages.Add(new ProductImage
+                    {
+                        ImagePath = savedPath,
+                        IsMain = imageDto.IsMain,
+                        AltText = imageDto.AltText ?? productUpdateDTO.Title
+                    });
+                }
+            }
+            Product updatedProduct = _productWriteRepository.Update(oldProduct);
+            await _productWriteRepository.SaveChangeAsync();
+            return updatedProduct;
         }
         public async Task<ICollection<ProductReadDTO>> GetAllAsync()
         {
@@ -127,6 +138,20 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             var result = _mapper.Map<ICollection<ProductReadDTO>>(products);
             return result;
 
+        }
+        public async Task<PagedResult<ProductReadDTO>> GetPaginatedAsync(PaginationParams @params)
+        {
+            ICollection<Product> allCategories = await _productReadRepository.GetAllAsync(false, ["Catagory", "ProductImages"]);
+            ICollection<ProductReadDTO> blogDtos = _mapper.Map<ICollection<ProductReadDTO>>(allCategories);
+
+            var filtered = blogDtos
+                //.OrderByDescending(c => c.CreateAt)
+                .Skip((@params.PageNumber - 1) * @params.PageSize)
+                .Take(@params.PageSize)
+                .ToList();
+            int totalCount = allCategories.Count;
+            var test = new PagedResult<ProductReadDTO>(filtered, totalCount, @params.PageNumber, @params.PageSize);
+            return test;
         }
 
         public async Task<ICollection<ProductReadDTO>> GetFilteredPrice(int minPrice, int maxPrice)

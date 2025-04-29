@@ -7,6 +7,7 @@ using ProSolution.BL.DTOs.PartnerDTO;
 using ProSolution.BL.Services.InternalServices.Abstractions;
 using ProSolution.BL.Services.InternalServices.Implementations;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 
 namespace ProSolution.API.Controllers
 {
@@ -35,21 +36,44 @@ namespace ProSolution.API.Controllers
         public async Task<IActionResult> Create([FromForm] BrandCreateDTO catagoryDto)
         {
 
-            return StatusCode(StatusCodes.Status201Created, await _brandService.CreateAsync(catagoryDto));
+            
+            try
+            {
+                return StatusCode(StatusCodes.Status201Created, await _brandService.CreateAsync(catagoryDto));
 
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, ex.Message);
+            }
 
 
 
 
 
         }
+        //PAGINATION
+        [HttpGet("Paginated")]
+        public async Task<IActionResult> GetPaginated([FromQuery] PaginationParams @params)
+        {
+            var result = await _brandService.GetPaginatedAsync(@params);
+            return Ok(result);
+        }
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
 
-            return StatusCode(StatusCodes.Status200OK, await _brandService.GetByIdAsync(id));
+            
 
+            try
+            {
+                return StatusCode(StatusCodes.Status200OK, await _brandService.GetByIdAsync(id));
 
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, ex.Message);
+            }
 
 
         }
@@ -57,8 +81,16 @@ namespace ProSolution.API.Controllers
         public async Task<IActionResult> SoftDelete(int id)
         {
 
-            return StatusCode(StatusCodes.Status200OK, await _brandService.SoftDeleteAsync(id));
+            
+            try
+            {
+                return StatusCode(StatusCodes.Status200OK, await _brandService.SoftDeleteAsync(id));
 
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, ex.Message);
+            }
 
 
 
@@ -67,8 +99,16 @@ namespace ProSolution.API.Controllers
         public async Task<IActionResult> HardDelete(int id)
         {
 
-            return StatusCode(StatusCodes.Status200OK, await _brandService.HardDeleteAsync(id));
+           
+            try
+            {
+                return StatusCode(StatusCodes.Status200OK, await _brandService.HardDeleteAsync(id));
 
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, ex.Message);
+            }
 
 
         }

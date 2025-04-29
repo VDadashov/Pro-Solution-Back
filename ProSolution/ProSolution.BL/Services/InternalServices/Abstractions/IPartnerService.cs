@@ -2,6 +2,7 @@
 using ProSolution.BL.DTOs.PartnerDTOs;
 using ProSolution.BL.DTOs.SliderDTO;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 
 namespace ProSolution.BL.Services.InternalServices.Abstractions
 {
@@ -15,5 +16,7 @@ namespace ProSolution.BL.Services.InternalServices.Abstractions
         Task<Partner> UpdateAsync(int id, PartnerDTO partnerDTO);
         Task<Partner> SoftDeleteAsync(int id);
         Task<Partner> HardDeleteAsync(int id);
+        Task<PagedResult<Partner>> GetPaginatedAsync(PaginationParams @params);
+
     }
 }

@@ -2,6 +2,7 @@
 using ProSolution.BL.DTOs.BrandDTOs;
 using ProSolution.BL.DTOs.PartnerDTO;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 
 namespace ProSolution.BL.Services.InternalServices.Abstractions
 {
@@ -15,5 +16,7 @@ namespace ProSolution.BL.Services.InternalServices.Abstractions
         Task<Brand> UpdateAsync(int id, BrandDTO brandDTO);
         Task<Brand> SoftDeleteAsync(int id);
         Task<Brand> HardDeleteAsync(int id);
+        Task<PagedResult<Brand>> GetPaginatedAsync(PaginationParams @params);
+
     }
 }

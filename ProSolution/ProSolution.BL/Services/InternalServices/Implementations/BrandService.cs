@@ -5,6 +5,7 @@ using ProSolution.BL.DTOs.PartnerDTO;
 using ProSolution.BL.Services.ExternalServices;
 using ProSolution.BL.Services.InternalServices.Abstractions;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 using ProSolution.DAL.Repositories.Abstractions;
 using ProSolution.DAL.Repositories.Implementations;
 
@@ -121,6 +122,20 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             }
             await _brandWriteRepository.SaveChangeAsync();
             return product1;
+        }
+        public async Task<PagedResult<Brand>> GetPaginatedAsync(PaginationParams @params)
+        {
+            var allCategories = await _brandReadRepository.GetAllAsync(false);
+
+            var filtered = allCategories
+                //.OrderByDescending(c => c.CreateAt)
+                .Skip((@params.PageNumber - 1) * @params.PageSize)
+                .Take(@params.PageSize)
+                .ToList();
+
+            int totalCount = allCategories.Count;
+
+            return new PagedResult<Brand>(filtered, totalCount, @params.PageNumber, @params.PageSize);
         }
     }
 }

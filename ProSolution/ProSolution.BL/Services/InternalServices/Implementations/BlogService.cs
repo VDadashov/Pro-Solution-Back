@@ -4,6 +4,7 @@ using ProSolution.BL.DTOs.PartnerDTO;
 using ProSolution.BL.Services.ExternalServices;
 using ProSolution.BL.Services.InternalServices.Abstractions;
 using ProSolution.Core.Entities;
+using ProSolution.Core.Enums;
 using ProSolution.DAL.Repositories.Abstractions;
 using ProSolution.DAL.Repositories.Abstractions.Blog;
 using ProSolution.DAL.Repositories.Implementations;
@@ -22,7 +23,28 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             _blogWriteRepository = blogWriteRepository;
             _blogReadRepository = blogReadRepository;
         }
+        public async Task<PagedResult<BlogReadDTO>> GetPaginatedAsync(PaginationParams @params)
+        {
+            ICollection<Blog>  allCategories = await _blogReadRepository.GetAllAsync(false, "User");
+            ICollection<BlogReadDTO> blogDtos = _mapper.Map<ICollection<BlogReadDTO>>(allCategories);
 
+            var filtered = blogDtos
+                //.OrderByDescending(c => c.CreateAt)
+                .Skip((@params.PageNumber - 1) * @params.PageSize)
+                .Take(@params.PageSize)
+                .ToList();
+            int totalCount = allCategories.Count;
+            var test = new PagedResult<BlogReadDTO>(filtered, totalCount, @params.PageNumber, @params.PageSize);
+            return test;
+        }
+        public async Task<ICollection<BlogReadDTO>> GetAllAsync()
+        {
+            var blogs = await _blogReadRepository.GetAllAsync(false, "User");
+
+            var blogDtos = _mapper.Map<ICollection<BlogReadDTO>>(blogs);
+
+            return blogDtos;
+        }
         public async Task<Blog> CreateAsync(BlogCreateDTO blogCreateDTO)
         {
             if (blogCreateDTO.ImagePath == null || !blogCreateDTO.ImagePath.IsValidFile())
@@ -37,14 +59,7 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             return res;
         }
 
-        public async Task<ICollection<BlogReadDTO>> GetAllAsync()
-        {
-            var blogs = await _blogReadRepository.GetAllAsync(false, "User");
-
-            var blogDtos = _mapper.Map<ICollection<BlogReadDTO>>(blogs);
-
-            return blogDtos;
-        }
+       
 
         public async Task<ICollection<Blog>> GetAllDeletedAsync()
         {
