@@ -3,6 +3,58 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.api\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|solutionrelative:prosolution.api\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|solutionrelative:prosolution.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|solutionrelative:prosolution.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.bl\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.api\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|solutionrelative:prosolution.api\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.bl\\services\\internalservices\\implementations\\filemanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\services\\internalservices\\implementations\\filemanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.bl\\services\\internalservices\\implementations\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\services\\internalservices\\implementations\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.api\\prosolution.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|solutionrelative:prosolution.api\\prosolution.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.bl\\services\\internalservices\\abstractions\\ifilemanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\services\\internalservices\\abstractions\\ifilemanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.bl\\services\\internalservices\\abstractions\\isliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\services\\internalservices\\abstractions\\isliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E043CD50-A327-4367-BA73-34FC55CE4EF6}|ProSolution.Core\\ProSolution.Core.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.core\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E043CD50-A327-4367-BA73-34FC55CE4EF6}|ProSolution.Core\\ProSolution.Core.csproj|solutionrelative:prosolution.core\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E043CD50-A327-4367-BA73-34FC55CE4EF6}|ProSolution.Core\\ProSolution.Core.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.core\\exceptions\\commons\\entitynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E043CD50-A327-4367-BA73-34FC55CE4EF6}|ProSolution.Core\\ProSolution.Core.csproj|solutionrelative:prosolution.core\\exceptions\\commons\\entitynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E043CD50-A327-4367-BA73-34FC55CE4EF6}|ProSolution.Core\\ProSolution.Core.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.core\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E043CD50-A327-4367-BA73-34FC55CE4EF6}|ProSolution.Core\\ProSolution.Core.csproj|solutionrelative:prosolution.core\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.api\\controllers\\partnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|solutionrelative:prosolution.api\\controllers\\partnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,22 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.bl\\services\\internalservices\\abstractions\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\services\\internalservices\\abstractions\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.api\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|solutionrelative:prosolution.api\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.api\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|solutionrelative:prosolution.api\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.bl\\services\\internalservices\\implementations\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\services\\internalservices\\implementations\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.bl\\services\\internalservices\\abstractions\\isliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\services\\internalservices\\abstractions\\isliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -131,10 +167,6 @@
       "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\dtos\\reviewdtos\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|solutionrelative:prosolution.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.bl\\dtos\\sliderdtos\\sliderupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\dtos\\sliderdtos\\sliderupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -185,10 +217,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.dal\\migrations\\20250425133226_bloggggg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|solutionrelative:prosolution.dal\\migrations\\20250425133226_bloggggg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.bl\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.bl\\settings\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -275,18 +303,6 @@
       "RelativeMoniker": "D:0:0:{5D72D911-6AD7-442D-A559-9C021948D143}|ProSolution.BL\\ProSolution.BL.csproj|solutionrelative:prosolution.bl\\profiles\\brandprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E00D1814-68C6-4D8A-81AB-30421F469BCF}|ProSolution.API\\ProSolution.API.csproj|solutionrelative:prosolution.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E043CD50-A327-4367-BA73-34FC55CE4EF6}|ProSolution.Core\\ProSolution.Core.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.core\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E043CD50-A327-4367-BA73-34FC55CE4EF6}|ProSolution.Core\\ProSolution.Core.csproj|solutionrelative:prosolution.core\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E043CD50-A327-4367-BA73-34FC55CE4EF6}|ProSolution.Core\\ProSolution.Core.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.core\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E043CD50-A327-4367-BA73-34FC55CE4EF6}|ProSolution.Core\\ProSolution.Core.csproj|solutionrelative:prosolution.core\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|c:\\users\\acer\\desktop\\pro-solution-back\\prosolution\\prosolution.dal\\seed\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4396BA26-7056-406E-A7C2-1F221F0B9067}|ProSolution.DAL\\ProSolution.DAL.csproj|solutionrelative:prosolution.dal\\seed\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -361,7 +377,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 26,
               "Title": "CatagoryService.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\CatagoryService.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\CatagoryService.cs",
@@ -370,12 +386,11 @@
               "ViewState": "AgIAAGcAAAAAAAAAAAAUwHgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T11:21:29.798Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 27,
               "Title": "ICatagoryService.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\ICatagoryService.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\ICatagoryService.cs",
@@ -384,12 +399,11 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAxwBEAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T07:15:08.392Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "CatagoryController.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\CatagoryController.cs",
               "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\CatagoryController.cs",
@@ -398,8 +412,7 @@
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T10:38:30.284Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -411,20 +424,166 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BrandService.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\BrandService.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\BrandService.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\BrandService.cs",
-              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\BrandService.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAUwIkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:28:11.288Z",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\appsettings.json",
+              "RelativeDocumentMoniker": "ProSolution.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\appsettings.json",
+              "RelativeToolTip": "ProSolution.API\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-24T12:55:14.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Program.cs",
+              "RelativeDocumentMoniker": "ProSolution.API\\Program.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Program.cs",
+              "RelativeToolTip": "ProSolution.API\\Program.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T10:33:35.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "ProSolution.API\\Controllers\\ReviewController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAYwGwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T11:52:50.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\ServiceRegistration.cs",
+              "RelativeToolTip": "ProSolution.BL\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T11:44:56.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "ProSolution.API\\Controllers\\SliderController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:00:54.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FileManagerService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\FileManagerService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\FileManagerService.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\FileManagerService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\FileManagerService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAWwDoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T10:10:57.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SliderService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\SliderService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\SliderService.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\SliderService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\SliderService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:59:56.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProSolution.API.http",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\ProSolution.API.http",
+              "RelativeDocumentMoniker": "ProSolution.API\\ProSolution.API.http",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\ProSolution.API.http",
+              "RelativeToolTip": "ProSolution.API\\ProSolution.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-04-29T10:56:19.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IFileManagerService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IFileManagerService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IFileManagerService.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IFileManagerService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IFileManagerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T10:09:59.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ISliderService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\ISliderService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\ISliderService.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\ISliderService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\ISliderService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA8AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:59:35.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EntityNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Exceptions\\Commons\\EntityNotFoundException.cs",
+              "RelativeDocumentMoniker": "ProSolution.Core\\Exceptions\\Commons\\EntityNotFoundException.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Exceptions\\Commons\\EntityNotFoundException.cs",
+              "RelativeToolTip": "ProSolution.Core\\Exceptions\\Commons\\EntityNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T08:47:53.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PartnerController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\PartnerController.cs",
+              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\PartnerController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\PartnerController.cs",
+              "RelativeToolTip": "ProSolution.API\\Controllers\\PartnerController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:16:52.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Entities\\Brand.cs",
+              "RelativeDocumentMoniker": "ProSolution.Core\\Entities\\Brand.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Entities\\Brand.cs",
+              "RelativeToolTip": "ProSolution.Core\\Entities\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:19:53.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "BrandController.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\BrandController.cs",
@@ -432,25 +591,35 @@
               "RelativeToolTip": "ProSolution.API\\Controllers\\BrandController.cs",
               "ViewState": "AgIAAIQAAAAAAAAAAAAwwCkAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:31:36.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T10:31:36.757Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PartnerController.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\PartnerController.cs",
-              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\PartnerController.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\PartnerController.cs",
-              "RelativeToolTip": "ProSolution.API\\Controllers\\PartnerController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBQAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "ProSolution.Core\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\GlobalUsings.cs",
+              "RelativeToolTip": "ProSolution.Core\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:16:52.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T10:26:07.704Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
+              "Title": "BrandService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\BrandService.cs",
+              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\BrandService.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\BrandService.cs",
+              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\BrandService.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAUwIkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:28:11.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "PartnerService.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\PartnerService.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\PartnerService.cs",
@@ -458,12 +627,11 @@
               "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\PartnerService.cs",
               "ViewState": "AgIAAFAAAAAAAAAAAAAUwGEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:15:31.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T11:15:31.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
               "Title": "IBrandService.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBrandService.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBrandService.cs",
@@ -471,12 +639,11 @@
               "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBrandService.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAcwBIAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:28:15.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T10:28:15.073Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 18,
               "Title": "IPartnerService.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IPartnerService.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IPartnerService.cs",
@@ -484,12 +651,11 @@
               "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IPartnerService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:15:13.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T11:15:13.999Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 19,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IProductService.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IProductService.cs",
@@ -497,64 +663,11 @@
               "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IProductService.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAYwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T12:52:41.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T12:52:41.827Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SliderController.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\SliderController.cs",
-              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\SliderController.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\SliderController.cs",
-              "RelativeToolTip": "ProSolution.API\\Controllers\\SliderController.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAADwv3YAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T12:00:54.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ReviewController.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\ReviewController.cs",
-              "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\ReviewController.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\ReviewController.cs",
-              "RelativeToolTip": "ProSolution.API\\Controllers\\ReviewController.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAA5wH4AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T11:52:50.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SliderService.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\SliderService.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\SliderService.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\SliderService.cs",
-              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\SliderService.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAUwIoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:59:56.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ISliderService.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\ISliderService.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\ISliderService.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\ISliderService.cs",
-              "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\ISliderService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:59:35.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\ProductController.cs",
@@ -562,12 +675,11 @@
               "RelativeToolTip": "ProSolution.API\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAIMAAAAAAAAAAAAqwJQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T08:31:40.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T08:31:40.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "BlogController.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\BlogController.cs",
               "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\BlogController.cs",
@@ -575,12 +687,11 @@
               "RelativeToolTip": "ProSolution.API\\Controllers\\BlogController.cs",
               "ViewState": "AgIAAGEAAAAAAAAAAAAYwHYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T13:18:44.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T13:18:44.029Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\ProductService.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\ProductService.cs",
@@ -588,12 +699,11 @@
               "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\ProductService.cs",
               "ViewState": "AgIAAIkAAAAAAAAAAAAUwJEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:47:58.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T11:47:58.457Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "BlogService.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\BlogService.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\BlogService.cs",
@@ -601,12 +711,11 @@
               "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\BlogService.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAAwCYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T13:06:14.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T13:06:14.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "IBlogService.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBlogService.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBlogService.cs",
@@ -614,12 +723,11 @@
               "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IBlogService.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T13:05:59.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T13:05:59.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "ReviewService.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Implementations\\ReviewService.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Implementations\\ReviewService.cs",
@@ -627,12 +735,11 @@
               "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Implementations\\ReviewService.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAA0wDYAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T11:47:06.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T11:47:06.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "IReviewService.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Services\\InternalServices\\Abstractions\\IReviewService.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IReviewService.cs",
@@ -640,12 +747,11 @@
               "RelativeToolTip": "ProSolution.BL\\Services\\InternalServices\\Abstractions\\IReviewService.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAA+wBIAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T11:44:24.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T11:44:24.394Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "PaginationParams.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Enums\\PaginationParams.cs",
               "RelativeDocumentMoniker": "ProSolution.Core\\Enums\\PaginationParams.cs",
@@ -653,12 +759,11 @@
               "RelativeToolTip": "ProSolution.Core\\Enums\\PaginationParams.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:49:52.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T13:49:52.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 31,
               "Title": "PagedResult.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Enums\\PagedResult.cs",
               "RelativeDocumentMoniker": "ProSolution.Core\\Enums\\PagedResult.cs",
@@ -666,12 +771,11 @@
               "RelativeToolTip": "ProSolution.Core\\Enums\\PagedResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:49:50.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T13:49:50.534Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 33,
               "Title": "ProductCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\ProductDTOs\\ProductCreateDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\ProductDTOs\\ProductCreateDTO.cs",
@@ -683,7 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 32,
               "Title": "ProductUpdateDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\ProductDTOs\\ProductUpdateDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\ProductDTOs\\ProductUpdateDTO.cs",
@@ -695,7 +799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 34,
               "Title": "ProductImage .cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Entities\\ProductImage .cs",
               "RelativeDocumentMoniker": "ProSolution.Core\\Entities\\ProductImage .cs",
@@ -707,7 +811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 35,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "ProSolution.Core\\Entities\\Product.cs",
@@ -719,7 +823,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 37,
               "Title": "ProductImageCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\ProductImageDTOs\\ProductImageCreateDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\ProductImageDTOs\\ProductImageCreateDTO.cs",
@@ -731,7 +835,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 38,
               "Title": "ProductImageReadDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\ProductImageDTOs\\ProductImageReadDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\ProductImageDTOs\\ProductImageReadDTO.cs",
@@ -743,7 +847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 36,
               "Title": "ProductImageUpdateDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\ProductImageDTOs\\ProductImageUpdateDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\ProductImageDTOs\\ProductImageUpdateDTO.cs",
@@ -755,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 39,
               "Title": "SliderCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\SliderDTOs\\SliderCreateDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\SliderDTOs\\SliderCreateDTO.cs",
@@ -767,19 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Program.cs",
-              "RelativeDocumentMoniker": "ProSolution.API\\Program.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Program.cs",
-              "RelativeToolTip": "ProSolution.API\\Program.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAuwH0AAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T10:33:35.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 41,
               "Title": "SliderUpdateDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\SliderDTOs\\SliderUpdateDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\SliderDTOs\\SliderUpdateDTO.cs",
@@ -791,7 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 40,
               "Title": "ReviewDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\ReviewDTOs\\ReviewDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\ReviewDTOs\\ReviewDTO.cs",
@@ -803,7 +895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 42,
               "Title": "Catagory.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Entities\\Catagory.cs",
               "RelativeDocumentMoniker": "ProSolution.Core\\Entities\\Catagory.cs",
@@ -815,7 +907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 43,
               "Title": "Review.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Entities\\Review.cs",
               "RelativeDocumentMoniker": "ProSolution.Core\\Entities\\Review.cs",
@@ -827,7 +919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 45,
               "Title": "BlogProfile.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Profiles\\BlogProfile.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Profiles\\BlogProfile.cs",
@@ -839,7 +931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 46,
               "Title": "BlogReadDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\BLogDTOs\\BlogReadDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\BLogDTOs\\BlogReadDTO.cs",
@@ -851,7 +943,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 90,
               "Title": "20250428111938_blogreviewlast.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\Migrations\\20250428111938_blogreviewlast.cs",
               "RelativeDocumentMoniker": "ProSolution.DAL\\Migrations\\20250428111938_blogreviewlast.cs",
@@ -863,7 +955,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 44,
               "Title": "RaitingEnum.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Enums\\RaitingEnum.cs",
               "RelativeDocumentMoniker": "ProSolution.Core\\Enums\\RaitingEnum.cs",
@@ -875,7 +967,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 47,
               "Title": "ReviewProfile.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Profiles\\ReviewProfile.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Profiles\\ReviewProfile.cs",
@@ -887,7 +979,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 50,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Entities\\User.cs",
               "RelativeDocumentMoniker": "ProSolution.Core\\Entities\\User.cs",
@@ -899,7 +991,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 49,
               "Title": "BlogCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\BLogDTOs\\BlogCreateDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\BLogDTOs\\BlogCreateDTO.cs",
@@ -911,7 +1003,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 48,
               "Title": "Blog.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Entities\\Blog.cs",
               "RelativeDocumentMoniker": "ProSolution.Core\\Entities\\Blog.cs",
@@ -923,7 +1015,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 51,
               "Title": "GlobalExceptionHandlerMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Middlewares\\GlobalExceptionHandlerMiddleware.cs",
               "RelativeDocumentMoniker": "ProSolution.API\\Middlewares\\GlobalExceptionHandlerMiddleware.cs",
@@ -935,7 +1027,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 52,
               "Title": "AboutController.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\AboutController.cs",
               "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\AboutController.cs",
@@ -947,7 +1039,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 53,
               "Title": "20250425133226_bloggggg.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\Migrations\\20250425133226_bloggggg.cs",
               "RelativeDocumentMoniker": "ProSolution.DAL\\Migrations\\20250425133226_bloggggg.cs",
@@ -959,7 +1051,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 54,
               "Title": "SmtpSettings.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Settings\\SmtpSettings.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Settings\\SmtpSettings.cs",
@@ -971,19 +1063,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "ProSolution.BL\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\ServiceRegistration.cs",
-              "RelativeToolTip": "ProSolution.BL\\ServiceRegistration.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T11:44:56.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 55,
               "Title": "AppSettings.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Settings\\AppSettings.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Settings\\AppSettings.cs",
@@ -995,7 +1075,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 58,
               "Title": "BlogUpdateDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\BLogDTOs\\BlogUpdateDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\BLogDTOs\\BlogUpdateDTO.cs",
@@ -1007,7 +1087,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 59,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\Contexts\\AppDbContext.cs",
               "RelativeDocumentMoniker": "ProSolution.DAL\\Contexts\\AppDbContext.cs",
@@ -1019,7 +1099,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 57,
               "Title": "BrandDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\BrandDTOs\\BrandDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\BrandDTOs\\BrandDTO.cs",
@@ -1031,7 +1111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 56,
               "Title": "BrandCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\BrandDTOs\\BrandCreateDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\BrandDTOs\\BrandCreateDTO.cs",
@@ -1043,7 +1123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 61,
               "Title": "BlogWriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\Repositories\\Implementations\\Blog\\BlogWriteRepository.cs",
               "RelativeDocumentMoniker": "ProSolution.DAL\\Repositories\\Implementations\\Blog\\BlogWriteRepository.cs",
@@ -1055,7 +1135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 62,
               "Title": "BlogReadRepository.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\Repositories\\Implementations\\Blog\\BlogReadRepository.cs",
               "RelativeDocumentMoniker": "ProSolution.DAL\\Repositories\\Implementations\\Blog\\BlogReadRepository.cs",
@@ -1067,7 +1147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 63,
               "Title": "IBlogWriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\Repositories\\Abstractions\\Blog\\IBlogWriteRepository.cs",
               "RelativeDocumentMoniker": "ProSolution.DAL\\Repositories\\Abstractions\\Blog\\IBlogWriteRepository.cs",
@@ -1079,7 +1159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 64,
               "Title": "IBlogReadRepository.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\Repositories\\Abstractions\\Blog\\IBlogReadRepository.cs",
               "RelativeDocumentMoniker": "ProSolution.DAL\\Repositories\\Abstractions\\Blog\\IBlogReadRepository.cs",
@@ -1091,7 +1171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 60,
               "Title": "RepositoryRegistration.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\RepositoryRegistration.cs",
               "RelativeDocumentMoniker": "ProSolution.DAL\\RepositoryRegistration.cs",
@@ -1103,7 +1183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 88,
               "Title": "20250425120228_slider.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\Migrations\\20250425120228_slider.cs",
               "RelativeDocumentMoniker": "ProSolution.DAL\\Migrations\\20250425120228_slider.cs",
@@ -1115,7 +1195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 65,
               "Title": "SliderProfile.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Profiles\\SliderProfile.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Profiles\\SliderProfile.cs",
@@ -1127,7 +1207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 66,
               "Title": "Slider.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Entities\\Slider.cs",
               "RelativeDocumentMoniker": "ProSolution.Core\\Entities\\Slider.cs",
@@ -1139,7 +1219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 67,
               "Title": "CatagoryProfile.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Profiles\\CatagoryProfile.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Profiles\\CatagoryProfile.cs",
@@ -1151,7 +1231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 69,
               "Title": "CatagoryDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\CatagoryDTOs\\CatagoryDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\CatagoryDTOs\\CatagoryDTO.cs",
@@ -1163,7 +1243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 68,
               "Title": "CatagoryCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\CatagoryDTOs\\CatagoryCreateDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\CatagoryDTOs\\CatagoryCreateDTO.cs",
@@ -1175,7 +1255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 70,
               "Title": "PartnerProfile.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Profiles\\PartnerProfile.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Profiles\\PartnerProfile.cs",
@@ -1187,7 +1267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 71,
               "Title": "PartnerDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\PartnerDTOs\\PartnerDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\PartnerDTOs\\PartnerDTO.cs",
@@ -1199,7 +1279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 72,
               "Title": "PartnerCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\PartnerDTOs\\PartnerCreateDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\PartnerDTOs\\PartnerCreateDTO.cs",
@@ -1211,7 +1291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 89,
               "Title": "20250425111209_partnerrr.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\Migrations\\20250425111209_partnerrr.cs",
               "RelativeDocumentMoniker": "ProSolution.DAL\\Migrations\\20250425111209_partnerrr.cs",
@@ -1223,7 +1303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 73,
               "Title": "Partner.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Entities\\Partner.cs",
               "RelativeDocumentMoniker": "ProSolution.Core\\Entities\\Partner.cs",
@@ -1235,7 +1315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 74,
               "Title": "BrandProfile.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Profiles\\BrandProfile.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Profiles\\BrandProfile.cs",
@@ -1247,7 +1327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 87,
               "Title": "20250425104652_localll.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\Migrations\\20250425104652_localll.cs",
               "RelativeDocumentMoniker": "ProSolution.DAL\\Migrations\\20250425104652_localll.cs",
@@ -1259,31 +1339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\appsettings.json",
-              "RelativeDocumentMoniker": "ProSolution.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\appsettings.json",
-              "RelativeToolTip": "ProSolution.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-24T12:55:14.47Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "GlobalUsings.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\GlobalUsings.cs",
-              "RelativeDocumentMoniker": "ProSolution.Core\\GlobalUsings.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\GlobalUsings.cs",
-              "RelativeToolTip": "ProSolution.Core\\GlobalUsings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:26:07.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 86,
               "Title": "20250425102048_branddd.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\Migrations\\20250425102048_branddd.cs",
               "RelativeDocumentMoniker": "ProSolution.DAL\\Migrations\\20250425102048_branddd.cs",
@@ -1295,19 +1351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "Brand.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Entities\\Brand.cs",
-              "RelativeDocumentMoniker": "ProSolution.Core\\Entities\\Brand.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.Core\\Entities\\Brand.cs",
-              "RelativeToolTip": "ProSolution.Core\\Entities\\Brand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:19:53.109Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 75,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\Seed\\DbInitializer.cs",
               "RelativeDocumentMoniker": "ProSolution.DAL\\Seed\\DbInitializer.cs",
@@ -1319,7 +1363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 76,
               "Title": "ProductDiscountReadDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\ProductDTOs\\ProductDiscountReadDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\ProductDTOs\\ProductDiscountReadDTO.cs",
@@ -1331,7 +1375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 77,
               "Title": "BadgeListItemDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\DTOs\\BadgeDTOs\\BadgeListItemDTO.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\DTOs\\BadgeDTOs\\BadgeListItemDTO.cs",
@@ -1343,7 +1387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 79,
               "Title": "20250424120604_last.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\Migrations\\20250424120604_last.cs",
               "RelativeDocumentMoniker": "ProSolution.DAL\\Migrations\\20250424120604_last.cs",
@@ -1355,7 +1399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 82,
               "Title": "JwtTokenGenerator.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Helpers\\JwtTokenGenerator.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Helpers\\JwtTokenGenerator.cs",
@@ -1367,7 +1411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 78,
               "Title": "RoleSeeder.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Helpers\\RoleSeeder.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Helpers\\RoleSeeder.cs",
@@ -1379,7 +1423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 81,
               "Title": "AddJwtConfigurations.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.BL\\Helpers\\AddJwtConfigurations.cs",
               "RelativeDocumentMoniker": "ProSolution.BL\\Helpers\\AddJwtConfigurations.cs",
@@ -1391,7 +1435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 80,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "ProSolution.API\\Controllers\\AuthController.cs",
@@ -1403,7 +1447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 83,
               "Title": "20250424114910_second.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\Migrations\\20250424114910_second.cs",
               "RelativeDocumentMoniker": "ProSolution.DAL\\Migrations\\20250424114910_second.cs",
@@ -1415,7 +1459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 85,
               "Title": "20250424102940_initial.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Pro-Solution-Back\\ProSolution\\ProSolution.DAL\\Migrations\\20250424102940_initial.cs",
               "RelativeDocumentMoniker": "ProSolution.DAL\\Migrations\\20250424102940_initial.cs",
@@ -1427,7 +1471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 84,
               "Title": "20250424102409_initial.cs",
               "DocumentMoniker": "C:\\Users\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.DAL\\Migrations\\20250424102409_initial.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\ikinci.el.noutbuklar\\Desktop\\Pro-Solution\\ProSolution\\ProSolution.DAL\\Migrations\\20250424102409_initial.cs",

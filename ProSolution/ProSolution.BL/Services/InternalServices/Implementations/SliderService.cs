@@ -13,29 +13,51 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
     {
         private readonly ISliderReadRepository _sliderReadRepository;
         private readonly ISliderWriteRepository _sliderWriteRepository;
+        private readonly IFileManagerService _fileManagerService;
         private readonly IMapper _mapper;
 
-        public SliderService(IMapper mapper, ISliderWriteRepository sliderWriteRepository, ISliderReadRepository sliderReadRepository)
+        public SliderService(IMapper mapper, ISliderWriteRepository sliderWriteRepository, ISliderReadRepository sliderReadRepository, IFileManagerService fileManagerService)
         {
             _mapper = mapper;
             _sliderWriteRepository = sliderWriteRepository;
             _sliderReadRepository = sliderReadRepository;
+            _fileManagerService = fileManagerService;
         }
-
         public async Task<Slider> CreateAsync(SliderCreateDTO sliderCreateDTO)
         {
-
             if (sliderCreateDTO.ImagePath == null || !sliderCreateDTO.ImagePath.IsValidFile())
             {
                 throw new Exception("Invalid file type or size");
             }
+
+            // Cloudinary-ə yüklə
+            var imageUrl = await _fileManagerService.UploadFileAsync(sliderCreateDTO.ImagePath);
+
+            // Xəritə et və şəkil linkini təyin et
             Slider slider = _mapper.Map<Slider>(sliderCreateDTO);
-            slider.ImagePath = await sliderCreateDTO.ImagePath.SaveAsync("Sliders");
+            slider.ImagePath = imageUrl;
             slider.CreateAt = DateTime.UtcNow.AddHours(4);
+
             var res = await _sliderWriteRepository.CreateAsync(slider);
             await _sliderWriteRepository.SaveChangeAsync();
+
             return res;
         }
+
+        //public async Task<Slider> CreateAsync(SliderCreateDTO sliderCreateDTO)
+        //{
+
+        //    if (sliderCreateDTO.ImagePath == null || !sliderCreateDTO.ImagePath.IsValidFile())
+        //    {
+        //        throw new Exception("Invalid file type or size");
+        //    }
+        //    Slider slider = _mapper.Map<Slider>(sliderCreateDTO);
+        //    slider.ImagePath = await sliderCreateDTO.ImagePath.SaveAsync("Sliders");
+        //    slider.CreateAt = DateTime.UtcNow.AddHours(4);
+        //    var res = await _sliderWriteRepository.CreateAsync(slider);
+        //    await _sliderWriteRepository.SaveChangeAsync();
+        //    return res;
+        //}
 
         public async Task<ICollection<Slider>> GetAllAsync()
         {

@@ -807,3 +807,4 @@ C:\Users\ACER\Desktop\Pro-Solution-Back\ProSolution\ProSolution.API\obj\Debug\ne
 C:\Users\ACER\Desktop\Pro-Solution-Back\ProSolution\ProSolution.API\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\ACER\Desktop\Pro-Solution-Back\ProSolution\ProSolution.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\ACER\Desktop\Pro-Solution-Back\ProSolution\ProSolution.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\ACER\Desktop\Pro-Solution-Back\ProSolution\ProSolution.API\bin\Debug\net8.0\CloudinaryDotNet.dll

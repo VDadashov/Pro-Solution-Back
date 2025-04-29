@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProSolution.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23bd9357e03ca450c952321ee4acd3c097409995")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b88ec6102b9e99be0156f3bd334072a45decfec4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProSolution.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProSolution.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

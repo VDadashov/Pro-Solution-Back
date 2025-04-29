@@ -7,7 +7,6 @@ namespace ProSolution.Core.Entities
         public string ImagePath { get; set; }
         public string AltText { get; set; }
         public string? Title { get; set; }
-        public string? Description { get; set; }
-        
+        public string? Description { get; set; }       
     }
 }

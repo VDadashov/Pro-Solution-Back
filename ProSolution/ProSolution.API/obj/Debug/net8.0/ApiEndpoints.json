@@ -663,6 +663,27 @@
     ]
   },
   {
+    "ContainingType": "ProSolution.API.Controllers.BrandController",
+    "Method": "GetPaginated",
+    "RelativePath": "api/Brand/Paginated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProSolution.API.Controllers.CatagoryController",
     "Method": "GetAll",
     "RelativePath": "api/Catagory",
@@ -1243,6 +1264,27 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "ProSolution.API.Controllers.PartnerController",
+    "Method": "GetPaginated",
+    "RelativePath": "api/Partner/Paginated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ProSolution.API.Controllers.ProductController",

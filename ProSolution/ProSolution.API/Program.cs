@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using ProSolution.API.Middlewares;
 using ProSolution.BL.Profiles;
 using ProSolution.BL.Services.InternalServices.Abstractions;
@@ -22,12 +22,14 @@ using Microsoft.OpenApi.Models;
 using FluentValidation.AspNetCore;
 using ProSolution.BL.DTOs.SliderDTO;
 using ProSolution.BL.DTOs.SliderDTOs;
+using CloudinaryDotNet;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<AppDbContext>(opt=>opt.UseSqlServer(builder.Configuration.GetConnectionString("MsSQL")));
 builder.Services.AddRepositories();
-builder.Services.AddServices();
+builder.Services.AddServices(builder.Configuration);
+//builder.Services.AddCloud();
 builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("AppSettings"));
 builder.Services.AddSingleton(sp => sp.GetRequiredService<IOptions<AppSettings>>().Value);
 //builder.Services.AddScoped<IAppInfoService, AppInfoService>();
@@ -37,6 +39,18 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddScoped<IAuthService, AuthService>();
+
+
+//var cloudName = builder.Configuration["Cloudinary:CloudName"];
+//var apiKey = builder.Configuration["Cloudinary:ApiKey"];
+//var apiSecret = builder.Configuration["Cloudinary:ApiSecret"];
+
+//var cloudinaryAccount = new Account(cloudName, apiKey, apiSecret);
+//var cloudinary = new Cloudinary(cloudinaryAccount);
+
+//// Cloudinary servisini qeydiyyatdan keçirt
+//builder.Services.AddSingleton(cloudinary);
+
 
 //add identity
 builder.Services.AddIdentity<User, IdentityRole>(options =>
@@ -107,18 +121,17 @@ builder.Services.AddScoped <IBrandReadRepository , BrandReadRepository>();
 builder.Services.AddScoped <IBrandWriteRepository , BrandWriteRepository>();
 builder.Services.AddScoped <IProductImageWriteRepository , ProductImageWriteRepository>();
 builder.Services.AddScoped <IProductImageReadRepository , ProductImageReadRepository>();
-//builder.Services.AddControllers()
-//    .AddJsonOptions(x =>
-//    {
-//        x.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
-//        x.JsonSerializerOptions.WriteIndented = true;
-//    });
+
+
+
+
 builder.Services.AddAutoMapper(typeof(CatagoryProfile).Assembly);
 builder.Services.AddScoped<ICatagoryService , CatagoryService>();
 builder.Services.AddScoped<IProductService , ProductService>();
 builder.Services.AddScoped<IPartnerService , PartnerService>();
 builder.Services.AddScoped<ISliderService , SliderService>();
 builder.Services.AddScoped<IBrandService , BrandService>();
+builder.Services.AddScoped<IFileManagerService , FileManagerService>();
 builder.Services.AddControllers()
     .AddFluentValidation(config =>
     {
