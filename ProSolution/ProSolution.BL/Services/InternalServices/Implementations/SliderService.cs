@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using ProSolution.BL.DTOs.PartnerDTO;
 using ProSolution.BL.DTOs.SliderDTO;
 using ProSolution.BL.DTOs.SliderDTOs;
 using ProSolution.BL.Services.ExternalServices;
@@ -44,20 +45,7 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             return res;
         }
 
-        //public async Task<Slider> CreateAsync(SliderCreateDTO sliderCreateDTO)
-        //{
-
-        //    if (sliderCreateDTO.ImagePath == null || !sliderCreateDTO.ImagePath.IsValidFile())
-        //    {
-        //        throw new Exception("Invalid file type or size");
-        //    }
-        //    Slider slider = _mapper.Map<Slider>(sliderCreateDTO);
-        //    slider.ImagePath = await sliderCreateDTO.ImagePath.SaveAsync("Sliders");
-        //    slider.CreateAt = DateTime.UtcNow.AddHours(4);
-        //    var res = await _sliderWriteRepository.CreateAsync(slider);
-        //    await _sliderWriteRepository.SaveChangeAsync();
-        //    return res;
-        //}
+       
 
         public async Task<ICollection<Slider>> GetAllAsync()
         {
@@ -124,6 +112,9 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
                 throw new Exception("Bu Id-e uygun mehsul tapilmadi.");
             }
             string path =oldProduct.ImagePath;
+            var imageUrl = await _fileManagerService.UploadFileAsync(sliderCreateDTO.ImagePath);
+
+
             Slider product = _mapper.Map(sliderCreateDTO, oldProduct);
             product.UpdateAt = DateTime.UtcNow.AddHours(4);
             product.Id = oldProduct.Id;
@@ -131,17 +122,17 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
 
             if (sliderCreateDTO.ImagePath != null)
             {
-                product.ImagePath = await sliderCreateDTO.ImagePath.SaveAsync("Sliders");
+                product.ImagePath = imageUrl;
             }
             else
             {
                 product.ImagePath = path;
             }
             Slider product1 = _sliderWriteRepository.Update(product);
-            if (sliderCreateDTO.ImagePath != null)
-            {
-                File.Delete(Path.Combine(Path.GetFullPath("Resource"), "ImageUpload", "Sliders", oldProduct.ImagePath));
-            }
+            //if (sliderCreateDTO.ImagePath != null)
+            //{
+            //    File.Delete(Path.Combine(Path.GetFullPath("Resource"), "ImageUpload", "Sliders", oldProduct.ImagePath));
+            //}
             await _sliderWriteRepository.SaveChangeAsync();
             return product1;
         }

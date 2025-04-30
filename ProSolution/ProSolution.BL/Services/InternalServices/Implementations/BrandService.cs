@@ -15,13 +15,15 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
     {
         private readonly IBrandReadRepository _brandReadRepository;
         private readonly IBrandWriteRepository _brandWriteRepository;
+        private readonly IFileManagerService _fileManagerService;
         private readonly IMapper _mapper;
 
-        public BrandService(IMapper mapper, IBrandWriteRepository brandWriteRepository, IBrandReadRepository brandReadRepository)
+        public BrandService(IMapper mapper, IBrandWriteRepository brandWriteRepository, IBrandReadRepository brandReadRepository, IFileManagerService fileManagerService)
         {
             _mapper = mapper;
             _brandWriteRepository = brandWriteRepository;
             _brandReadRepository = brandReadRepository;
+            _fileManagerService = fileManagerService;
         }
 
         public async Task<Brand> CreateAsync(BrandCreateDTO partnerDTO)
@@ -30,8 +32,11 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             {
                 throw new Exception("Invalid file type or size");
             }
+
+            var imageUrl = await _fileManagerService.UploadFileAsync(partnerDTO.ImagePath);
+
             Brand slider = _mapper.Map<Brand>(partnerDTO);
-            slider.ImagePath = await partnerDTO.ImagePath.SaveAsync("Brands");
+            slider.ImagePath = imageUrl;
             slider.CreateAt = DateTime.UtcNow.AddHours(4);
             var res = await _brandWriteRepository.CreateAsync(slider);
             await _brandWriteRepository.SaveChangeAsync();
@@ -102,6 +107,8 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             {
                 throw new Exception("Bu Id-e uygun mehsul tapilmadi.");
             }
+
+            var imageUrl = await _fileManagerService.UploadFileAsync(partnerDTO.ImagePath);
             Brand product = _mapper.Map(partnerDTO, oldProduct);
             product.UpdateAt = DateTime.UtcNow.AddHours(4);
             product.Id = oldProduct.Id;
@@ -109,17 +116,17 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
 
             if (partnerDTO.ImagePath != null)
             {
-                product.ImagePath = await partnerDTO.ImagePath.SaveAsync("Brands");
+                product.ImagePath = imageUrl;
             }
             else
             {
                 product.ImagePath = path;
             }
             Brand product1 = _brandWriteRepository.Update(product);
-            if (partnerDTO.ImagePath != null)
-            {
-                File.Delete(Path.Combine(Path.GetFullPath("Resource"), "ImageUpload", "Brands", oldProduct.ImagePath));
-            }
+            //if (partnerDTO.ImagePath != null)
+            //{
+            //    File.Delete(Path.Combine(Path.GetFullPath("Resource"), "ImageUpload", "Brands", oldProduct.ImagePath));
+            //}
             await _brandWriteRepository.SaveChangeAsync();
             return product1;
         }
@@ -128,7 +135,7 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             var allCategories = await _brandReadRepository.GetAllAsync(false);
 
             var filtered = allCategories
-                //.OrderByDescending(c => c.CreateAt)
+                 //.OrderByDescending(c => c.CreateAt)
                 .Skip((@params.PageNumber - 1) * @params.PageSize)
                 .Take(@params.PageSize)
                 .ToList();

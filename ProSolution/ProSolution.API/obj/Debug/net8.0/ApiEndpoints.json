@@ -2,7 +2,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.AboutController",
     "Method": "Get",
-    "RelativePath": "api/About",
+    "RelativePath": "api/about",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -12,7 +12,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.AboutController",
     "Method": "Update",
-    "RelativePath": "api/About",
+    "RelativePath": "api/about",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -38,7 +38,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.AppInfoController",
     "Method": "GetAppInfo",
-    "RelativePath": "api/AppInfo",
+    "RelativePath": "api/appinfo",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -48,7 +48,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.AuthController",
     "Method": "IsAuthorized",
-    "RelativePath": "api/Auth/check-authorize",
+    "RelativePath": "api/auth/check-authorize",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -58,7 +58,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.AuthController",
     "Method": "CheckUserRole",
-    "RelativePath": "api/Auth/check-role",
+    "RelativePath": "api/auth/check-role",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -68,7 +68,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.AuthController",
     "Method": "DeleteAccount",
-    "RelativePath": "api/Auth/delete",
+    "RelativePath": "api/auth/delete",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -78,7 +78,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.AuthController",
     "Method": "ForgotPassword",
-    "RelativePath": "api/Auth/forgot-password",
+    "RelativePath": "api/auth/forgot-password",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -94,7 +94,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.AuthController",
     "Method": "Login",
-    "RelativePath": "api/Auth/login",
+    "RelativePath": "api/auth/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -110,7 +110,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.AuthController",
     "Method": "Register",
-    "RelativePath": "api/Auth/register",
+    "RelativePath": "api/auth/register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -126,7 +126,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.AuthController",
     "Method": "ResetPassword",
-    "RelativePath": "api/Auth/reset-password",
+    "RelativePath": "api/auth/reset-password",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -157,7 +157,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BadgeController",
     "Method": "GetAll",
-    "RelativePath": "api/Badge",
+    "RelativePath": "api/badge",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -177,7 +177,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BadgeController",
     "Method": "Create",
-    "RelativePath": "api/Badge",
+    "RelativePath": "api/badge",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -203,7 +203,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BadgeController",
     "Method": "Update",
-    "RelativePath": "api/Badge/{id}",
+    "RelativePath": "api/badge/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -234,7 +234,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BadgeController",
     "Method": "HardDelete",
-    "RelativePath": "api/Badge/{id}",
+    "RelativePath": "api/badge/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -250,7 +250,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BadgeController",
     "Method": "GetAllDeleted",
-    "RelativePath": "api/Badge/Deleted",
+    "RelativePath": "api/badge/deleted",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -270,7 +270,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BadgeController",
     "Method": "Restore",
-    "RelativePath": "api/Badge/restore/{id}",
+    "RelativePath": "api/badge/restore/{id}",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
@@ -286,7 +286,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BadgeController",
     "Method": "SoftDelete",
-    "RelativePath": "api/Badge/soft-delete/{id}",
+    "RelativePath": "api/badge/soft-delete/{id}",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
@@ -302,7 +302,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BlogController",
     "Method": "GetAll",
-    "RelativePath": "api/Blog",
+    "RelativePath": "api/blog",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -322,7 +322,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BlogController",
     "Method": "Create",
-    "RelativePath": "api/Blog",
+    "RelativePath": "api/blog",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -353,7 +353,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BlogController",
     "Method": "GetById",
-    "RelativePath": "api/Blog/{id}",
+    "RelativePath": "api/blog/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -369,7 +369,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BlogController",
     "Method": "Update",
-    "RelativePath": "api/Blog/{id}",
+    "RelativePath": "api/blog/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -405,7 +405,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BlogController",
     "Method": "HardDelete",
-    "RelativePath": "api/Blog/{id}Hard",
+    "RelativePath": "api/blog/{id}hard",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -421,7 +421,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BlogController",
     "Method": "Restore",
-    "RelativePath": "api/Blog/{id}Restore",
+    "RelativePath": "api/blog/{id}restore",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -437,7 +437,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BlogController",
     "Method": "SoftDelete",
-    "RelativePath": "api/Blog/{id}Soft",
+    "RelativePath": "api/blog/{id}soft",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -453,7 +453,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BlogController",
     "Method": "GetAllDeleted",
-    "RelativePath": "api/Blog/Deleted",
+    "RelativePath": "api/blog/deleted",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -473,7 +473,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BlogController",
     "Method": "GetPaginated",
-    "RelativePath": "api/Blog/Paginated",
+    "RelativePath": "api/blog/paginated",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -494,7 +494,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BrandController",
     "Method": "GetAll",
-    "RelativePath": "api/Brand",
+    "RelativePath": "api/brand",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -514,7 +514,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BrandController",
     "Method": "Create",
-    "RelativePath": "api/Brand",
+    "RelativePath": "api/brand",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -545,7 +545,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BrandController",
     "Method": "GetById",
-    "RelativePath": "api/Brand/{id}",
+    "RelativePath": "api/brand/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -561,7 +561,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BrandController",
     "Method": "Update",
-    "RelativePath": "api/Brand/{id}",
+    "RelativePath": "api/brand/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -597,7 +597,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BrandController",
     "Method": "HardDelete",
-    "RelativePath": "api/Brand/{id}Hard",
+    "RelativePath": "api/brand/{id}hard",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -613,7 +613,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BrandController",
     "Method": "Restore",
-    "RelativePath": "api/Brand/{id}Restore",
+    "RelativePath": "api/brand/{id}restore",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -629,7 +629,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BrandController",
     "Method": "SoftDelete",
-    "RelativePath": "api/Brand/{id}Soft",
+    "RelativePath": "api/brand/{id}soft",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -645,7 +645,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BrandController",
     "Method": "GetAllDeleted",
-    "RelativePath": "api/Brand/Deleted",
+    "RelativePath": "api/brand/deleted",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -665,7 +665,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.BrandController",
     "Method": "GetPaginated",
-    "RelativePath": "api/Brand/Paginated",
+    "RelativePath": "api/brand/paginated",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -686,7 +686,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.CatagoryController",
     "Method": "GetAll",
-    "RelativePath": "api/Catagory",
+    "RelativePath": "api/catagory",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -706,7 +706,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.CatagoryController",
     "Method": "Create",
-    "RelativePath": "api/Catagory",
+    "RelativePath": "api/catagory",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -727,7 +727,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.CatagoryController",
     "Method": "GetById",
-    "RelativePath": "api/Catagory/{id}",
+    "RelativePath": "api/catagory/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -743,7 +743,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.CatagoryController",
     "Method": "Update",
-    "RelativePath": "api/Catagory/{id}",
+    "RelativePath": "api/catagory/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -764,7 +764,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.CatagoryController",
     "Method": "HardDelete",
-    "RelativePath": "api/Catagory/{id}Hard",
+    "RelativePath": "api/catagory/{id}hard",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -780,7 +780,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.CatagoryController",
     "Method": "Restore",
-    "RelativePath": "api/Catagory/{id}Restore",
+    "RelativePath": "api/catagory/{id}restore",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -796,7 +796,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.CatagoryController",
     "Method": "SoftDelete",
-    "RelativePath": "api/Catagory/{id}Soft",
+    "RelativePath": "api/catagory/{id}soft",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -812,7 +812,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.CatagoryController",
     "Method": "GetAllDeleted",
-    "RelativePath": "api/Catagory/Deleted",
+    "RelativePath": "api/catagory/deleted",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -832,7 +832,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.CatagoryController",
     "Method": "GetPaginated",
-    "RelativePath": "api/Catagory/Paginated",
+    "RelativePath": "api/catagory/paginated",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -853,7 +853,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.CatagoryController",
     "Method": "GetByParentId",
-    "RelativePath": "api/Catagory/Parent/{parentId}",
+    "RelativePath": "api/catagory/parent/{parentId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -869,7 +869,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ContactUsController",
     "Method": "SendContactMessage",
-    "RelativePath": "api/ContactUs/contact",
+    "RelativePath": "api/contactus/contact",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -885,7 +885,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.OurServiceController",
     "Method": "GetAll",
-    "RelativePath": "api/OurService",
+    "RelativePath": "api/ourservice",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -905,7 +905,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.OurServiceController",
     "Method": "Create",
-    "RelativePath": "api/OurService",
+    "RelativePath": "api/ourservice",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -946,7 +946,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.OurServiceController",
     "Method": "GetById",
-    "RelativePath": "api/OurService/{id}",
+    "RelativePath": "api/ourservice/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -962,7 +962,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.OurServiceController",
     "Method": "Update",
-    "RelativePath": "api/OurService/{id}",
+    "RelativePath": "api/ourservice/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -1013,7 +1013,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.OurServiceController",
     "Method": "HardDelete",
-    "RelativePath": "api/OurService/{id}",
+    "RelativePath": "api/ourservice/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -1029,7 +1029,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.OurServiceController",
     "Method": "GetAllDeleted",
-    "RelativePath": "api/OurService/Deleted",
+    "RelativePath": "api/ourservice/deleted",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1049,7 +1049,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.OurServiceController",
     "Method": "Restore",
-    "RelativePath": "api/OurService/restore/{id}",
+    "RelativePath": "api/ourservice/restore/{id}",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
@@ -1065,7 +1065,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.OurServiceController",
     "Method": "Search",
-    "RelativePath": "api/OurService/Search",
+    "RelativePath": "api/ourservice/search",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1081,7 +1081,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.OurServiceController",
     "Method": "SoftDelete",
-    "RelativePath": "api/OurService/soft-delete/{id}",
+    "RelativePath": "api/ourservice/soft-delete/{id}",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
@@ -1097,7 +1097,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.PartnerController",
     "Method": "GetAll",
-    "RelativePath": "api/Partner",
+    "RelativePath": "api/partner",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1117,7 +1117,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.PartnerController",
     "Method": "Create",
-    "RelativePath": "api/Partner",
+    "RelativePath": "api/partner",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1148,7 +1148,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.PartnerController",
     "Method": "GetById",
-    "RelativePath": "api/Partner/{id}",
+    "RelativePath": "api/partner/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1164,7 +1164,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.PartnerController",
     "Method": "Update",
-    "RelativePath": "api/Partner/{id}",
+    "RelativePath": "api/partner/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -1200,7 +1200,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.PartnerController",
     "Method": "HardDelete",
-    "RelativePath": "api/Partner/{id}Hard",
+    "RelativePath": "api/partner/{id}hard",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -1216,7 +1216,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.PartnerController",
     "Method": "Restore",
-    "RelativePath": "api/Partner/{id}Restore",
+    "RelativePath": "api/partner/{id}restore",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -1232,7 +1232,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.PartnerController",
     "Method": "SoftDelete",
-    "RelativePath": "api/Partner/{id}Soft",
+    "RelativePath": "api/partner/{id}soft",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -1248,7 +1248,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.PartnerController",
     "Method": "GetAllDeleted",
-    "RelativePath": "api/Partner/Deleted",
+    "RelativePath": "api/partner/deleted",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1268,7 +1268,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.PartnerController",
     "Method": "GetPaginated",
-    "RelativePath": "api/Partner/Paginated",
+    "RelativePath": "api/partner/paginated",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1289,7 +1289,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ProductController",
     "Method": "GetAll",
-    "RelativePath": "api/Product",
+    "RelativePath": "api/product",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1309,7 +1309,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ProductController",
     "Method": "Create",
-    "RelativePath": "api/Product",
+    "RelativePath": "api/product",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1365,7 +1365,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ProductController",
     "Method": "Update",
-    "RelativePath": "api/Product/{id}",
+    "RelativePath": "api/product/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -1426,7 +1426,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ProductController",
     "Method": "GetById",
-    "RelativePath": "api/Product/{id}",
+    "RelativePath": "api/product/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1442,7 +1442,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ProductController",
     "Method": "HardDelete",
-    "RelativePath": "api/Product/{id}Hard",
+    "RelativePath": "api/product/{id}hard",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -1458,7 +1458,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ProductController",
     "Method": "Restore",
-    "RelativePath": "api/Product/{id}Restore",
+    "RelativePath": "api/product/{id}restore",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -1474,7 +1474,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ProductController",
     "Method": "SoftDelete",
-    "RelativePath": "api/Product/{id}Soft",
+    "RelativePath": "api/product/{id}soft",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -1490,7 +1490,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ProductController",
     "Method": "GetAllDeleted",
-    "RelativePath": "api/Product/Deleted",
+    "RelativePath": "api/product/deleted",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1510,7 +1510,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ProductController",
     "Method": "GetAllDiscountProduct",
-    "RelativePath": "api/Product/DiscountProduct",
+    "RelativePath": "api/product/discountproduct",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1530,7 +1530,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ProductController",
     "Method": "GetAllProductFilteredPrice",
-    "RelativePath": "api/Product/FilterPriceProduct",
+    "RelativePath": "api/product/filterpriceproduct",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1561,7 +1561,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ProductController",
     "Method": "GetAllMostSold",
-    "RelativePath": "api/Product/MostSoldProduct",
+    "RelativePath": "api/product/mostsoldproduct",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1581,7 +1581,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ProductController",
     "Method": "GetAllNewestDiscountProduct",
-    "RelativePath": "api/Product/NewestDiscountProduct",
+    "RelativePath": "api/product/newestdiscountproduct",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1601,7 +1601,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ProductController",
     "Method": "GetNewestProduct",
-    "RelativePath": "api/Product/NewestProduct",
+    "RelativePath": "api/product/newestproduct",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1621,7 +1621,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ProductController",
     "Method": "GetPaginated",
-    "RelativePath": "api/Product/Paginated",
+    "RelativePath": "api/product/paginated",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1642,7 +1642,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ProductController",
     "Method": "Search",
-    "RelativePath": "api/Product/Search",
+    "RelativePath": "api/product/search",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1658,7 +1658,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ReviewController",
     "Method": "GetAll",
-    "RelativePath": "api/Review",
+    "RelativePath": "api/review",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1678,40 +1678,15 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ReviewController",
     "Method": "Create",
-    "RelativePath": "api/Review",
+    "RelativePath": "api/review",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Message",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Name",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Email",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "SaveMe",
-        "Type": "System.Boolean",
-        "IsRequired": false
-      },
-      {
-        "Name": "BlogId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "Raiting",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "catagoryDto",
+        "Type": "ProSolution.BL.DTOs.ReviewDTOs.ReviewDTO",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -1719,7 +1694,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ReviewController",
     "Method": "GetById",
-    "RelativePath": "api/Review/{id}",
+    "RelativePath": "api/review/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1735,7 +1710,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ReviewController",
     "Method": "Update",
-    "RelativePath": "api/Review/{id}",
+    "RelativePath": "api/review/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -1756,7 +1731,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ReviewController",
     "Method": "GetReviewsByBlogId",
-    "RelativePath": "api/Review/{id}/Reviews",
+    "RelativePath": "api/review/{id}/reviews",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1772,7 +1747,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ReviewController",
     "Method": "HardDelete",
-    "RelativePath": "api/Review/{id}Hard",
+    "RelativePath": "api/review/{id}hard",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -1788,7 +1763,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ReviewController",
     "Method": "Restore",
-    "RelativePath": "api/Review/{id}Restore",
+    "RelativePath": "api/review/{id}restore",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -1804,7 +1779,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ReviewController",
     "Method": "SoftDelete",
-    "RelativePath": "api/Review/{id}Soft",
+    "RelativePath": "api/review/{id}soft",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -1820,7 +1795,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ReviewController",
     "Method": "GetAllDeleted",
-    "RelativePath": "api/Review/Deleted",
+    "RelativePath": "api/review/deleted",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1840,7 +1815,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.ReviewController",
     "Method": "GetPaginated",
-    "RelativePath": "api/Review/Paginated",
+    "RelativePath": "api/review/paginated",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1861,7 +1836,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.SliderController",
     "Method": "GetAll",
-    "RelativePath": "api/Slider",
+    "RelativePath": "api/slider",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1881,7 +1856,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.SliderController",
     "Method": "Create",
-    "RelativePath": "api/Slider",
+    "RelativePath": "api/slider",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1902,7 +1877,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.SliderController",
     "Method": "GetById",
-    "RelativePath": "api/Slider/{id}",
+    "RelativePath": "api/slider/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1918,7 +1893,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.SliderController",
     "Method": "Update",
-    "RelativePath": "api/Slider/{id}",
+    "RelativePath": "api/slider/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -1944,7 +1919,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.SliderController",
     "Method": "HardDelete",
-    "RelativePath": "api/Slider/{id}Hard",
+    "RelativePath": "api/slider/{id}hard",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -1960,7 +1935,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.SliderController",
     "Method": "Restore",
-    "RelativePath": "api/Slider/{id}Restore",
+    "RelativePath": "api/slider/{id}restore",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -1976,7 +1951,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.SliderController",
     "Method": "SoftDelete",
-    "RelativePath": "api/Slider/{id}Soft",
+    "RelativePath": "api/slider/{id}soft",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -1992,7 +1967,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.SliderController",
     "Method": "GetAllDeleted",
-    "RelativePath": "api/Slider/Deleted",
+    "RelativePath": "api/slider/deleted",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -2012,7 +1987,7 @@
   {
     "ContainingType": "ProSolution.API.Controllers.SliderController",
     "Method": "GetPaginated",
-    "RelativePath": "api/Slider/Paginated",
+    "RelativePath": "api/slider/paginated",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

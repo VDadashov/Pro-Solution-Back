@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/About": {
+    "/api/about": {
       "get": {
         "tags": [
           "About"
@@ -59,7 +59,7 @@
         }
       }
     },
-    "/api/AppInfo": {
+    "/api/appinfo": {
       "get": {
         "tags": [
           "AppInfo"
@@ -71,7 +71,7 @@
         }
       }
     },
-    "/api/Auth/register": {
+    "/api/auth/register": {
       "post": {
         "tags": [
           "Auth"
@@ -102,7 +102,7 @@
         }
       }
     },
-    "/api/Auth/login": {
+    "/api/auth/login": {
       "post": {
         "tags": [
           "Auth"
@@ -133,7 +133,7 @@
         }
       }
     },
-    "/api/Auth/check-authorize": {
+    "/api/auth/check-authorize": {
       "get": {
         "tags": [
           "Auth"
@@ -145,7 +145,7 @@
         }
       }
     },
-    "/api/Auth/check-role": {
+    "/api/auth/check-role": {
       "get": {
         "tags": [
           "Auth"
@@ -157,7 +157,7 @@
         }
       }
     },
-    "/api/Auth/delete": {
+    "/api/auth/delete": {
       "delete": {
         "tags": [
           "Auth"
@@ -169,7 +169,7 @@
         }
       }
     },
-    "/api/Auth/forgot-password": {
+    "/api/auth/forgot-password": {
       "post": {
         "tags": [
           "Auth"
@@ -200,7 +200,7 @@
         }
       }
     },
-    "/api/Auth/reset-password": {
+    "/api/auth/reset-password": {
       "post": {
         "tags": [
           "Auth"
@@ -249,7 +249,7 @@
         }
       }
     },
-    "/api/Badge": {
+    "/api/badge": {
       "get": {
         "tags": [
           "Badge"
@@ -329,7 +329,7 @@
         }
       }
     },
-    "/api/Badge/Deleted": {
+    "/api/badge/deleted": {
       "get": {
         "tags": [
           "Badge"
@@ -367,7 +367,7 @@
         }
       }
     },
-    "/api/Badge/{id}": {
+    "/api/badge/{id}": {
       "put": {
         "tags": [
           "Badge"
@@ -443,7 +443,7 @@
         }
       }
     },
-    "/api/Badge/soft-delete/{id}": {
+    "/api/badge/soft-delete/{id}": {
       "patch": {
         "tags": [
           "Badge"
@@ -466,7 +466,7 @@
         }
       }
     },
-    "/api/Badge/restore/{id}": {
+    "/api/badge/restore/{id}": {
       "patch": {
         "tags": [
           "Badge"
@@ -489,7 +489,7 @@
         }
       }
     },
-    "/api/Blog": {
+    "/api/blog": {
       "get": {
         "tags": [
           "Blog"
@@ -575,7 +575,7 @@
         }
       }
     },
-    "/api/Blog/Deleted": {
+    "/api/blog/deleted": {
       "get": {
         "tags": [
           "Blog"
@@ -613,7 +613,7 @@
         }
       }
     },
-    "/api/Blog/{id}": {
+    "/api/blog/{id}": {
       "get": {
         "tags": [
           "Blog"
@@ -698,7 +698,7 @@
         }
       }
     },
-    "/api/Blog/{id}Soft": {
+    "/api/blog/{id}soft": {
       "delete": {
         "tags": [
           "Blog"
@@ -721,7 +721,7 @@
         }
       }
     },
-    "/api/Blog/{id}Hard": {
+    "/api/blog/{id}hard": {
       "delete": {
         "tags": [
           "Blog"
@@ -744,7 +744,7 @@
         }
       }
     },
-    "/api/Blog/{id}Restore": {
+    "/api/blog/{id}restore": {
       "put": {
         "tags": [
           "Blog"
@@ -767,7 +767,7 @@
         }
       }
     },
-    "/api/Blog/Paginated": {
+    "/api/blog/paginated": {
       "get": {
         "tags": [
           "Blog"
@@ -797,7 +797,7 @@
         }
       }
     },
-    "/api/Brand": {
+    "/api/brand": {
       "get": {
         "tags": [
           "Brand"
@@ -883,7 +883,7 @@
         }
       }
     },
-    "/api/Brand/Deleted": {
+    "/api/brand/deleted": {
       "get": {
         "tags": [
           "Brand"
@@ -921,7 +921,7 @@
         }
       }
     },
-    "/api/Brand/Paginated": {
+    "/api/brand/paginated": {
       "get": {
         "tags": [
           "Brand"
@@ -951,7 +951,7 @@
         }
       }
     },
-    "/api/Brand/{id}": {
+    "/api/brand/{id}": {
       "get": {
         "tags": [
           "Brand"
@@ -1036,7 +1036,7 @@
         }
       }
     },
-    "/api/Brand/{id}Soft": {
+    "/api/brand/{id}soft": {
       "delete": {
         "tags": [
           "Brand"
@@ -1059,7 +1059,7 @@
         }
       }
     },
-    "/api/Brand/{id}Hard": {
+    "/api/brand/{id}hard": {
       "delete": {
         "tags": [
           "Brand"
@@ -1082,7 +1082,7 @@
         }
       }
     },
-    "/api/Brand/{id}Restore": {
+    "/api/brand/{id}restore": {
       "put": {
         "tags": [
           "Brand"
@@ -1105,7 +1105,7 @@
         }
       }
     },
-    "/api/Catagory": {
+    "/api/catagory": {
       "get": {
         "tags": [
           "Catagory"
@@ -1179,7 +1179,7 @@
         }
       }
     },
-    "/api/Catagory/Paginated": {
+    "/api/catagory/paginated": {
       "get": {
         "tags": [
           "Catagory"
@@ -1209,7 +1209,7 @@
         }
       }
     },
-    "/api/Catagory/Deleted": {
+    "/api/catagory/deleted": {
       "get": {
         "tags": [
           "Catagory"
@@ -1247,7 +1247,7 @@
         }
       }
     },
-    "/api/Catagory/{id}": {
+    "/api/catagory/{id}": {
       "get": {
         "tags": [
           "Catagory"
@@ -1310,7 +1310,7 @@
         }
       }
     },
-    "/api/Catagory/{id}Soft": {
+    "/api/catagory/{id}soft": {
       "delete": {
         "tags": [
           "Catagory"
@@ -1333,7 +1333,7 @@
         }
       }
     },
-    "/api/Catagory/{id}Hard": {
+    "/api/catagory/{id}hard": {
       "delete": {
         "tags": [
           "Catagory"
@@ -1356,7 +1356,7 @@
         }
       }
     },
-    "/api/Catagory/{id}Restore": {
+    "/api/catagory/{id}restore": {
       "put": {
         "tags": [
           "Catagory"
@@ -1379,7 +1379,7 @@
         }
       }
     },
-    "/api/Catagory/Parent/{parentId}": {
+    "/api/catagory/parent/{parentId}": {
       "get": {
         "tags": [
           "Catagory"
@@ -1402,7 +1402,7 @@
         }
       }
     },
-    "/api/ContactUs/contact": {
+    "/api/contactus/contact": {
       "post": {
         "tags": [
           "ContactUs"
@@ -1433,7 +1433,7 @@
         }
       }
     },
-    "/api/OurService": {
+    "/api/ourservice": {
       "get": {
         "tags": [
           "OurService"
@@ -1532,7 +1532,7 @@
         }
       }
     },
-    "/api/OurService/Deleted": {
+    "/api/ourservice/deleted": {
       "get": {
         "tags": [
           "OurService"
@@ -1570,7 +1570,7 @@
         }
       }
     },
-    "/api/OurService/{id}": {
+    "/api/ourservice/{id}": {
       "get": {
         "tags": [
           "OurService"
@@ -1693,7 +1693,7 @@
         }
       }
     },
-    "/api/OurService/soft-delete/{id}": {
+    "/api/ourservice/soft-delete/{id}": {
       "patch": {
         "tags": [
           "OurService"
@@ -1716,7 +1716,7 @@
         }
       }
     },
-    "/api/OurService/restore/{id}": {
+    "/api/ourservice/restore/{id}": {
       "patch": {
         "tags": [
           "OurService"
@@ -1739,7 +1739,7 @@
         }
       }
     },
-    "/api/OurService/Search": {
+    "/api/ourservice/search": {
       "get": {
         "tags": [
           "OurService"
@@ -1760,7 +1760,7 @@
         }
       }
     },
-    "/api/Partner": {
+    "/api/partner": {
       "get": {
         "tags": [
           "Partner"
@@ -1846,7 +1846,7 @@
         }
       }
     },
-    "/api/Partner/Deleted": {
+    "/api/partner/deleted": {
       "get": {
         "tags": [
           "Partner"
@@ -1884,7 +1884,7 @@
         }
       }
     },
-    "/api/Partner/{id}": {
+    "/api/partner/{id}": {
       "get": {
         "tags": [
           "Partner"
@@ -1969,7 +1969,7 @@
         }
       }
     },
-    "/api/Partner/{id}Soft": {
+    "/api/partner/{id}soft": {
       "delete": {
         "tags": [
           "Partner"
@@ -1992,7 +1992,7 @@
         }
       }
     },
-    "/api/Partner/{id}Hard": {
+    "/api/partner/{id}hard": {
       "delete": {
         "tags": [
           "Partner"
@@ -2015,7 +2015,7 @@
         }
       }
     },
-    "/api/Partner/{id}Restore": {
+    "/api/partner/{id}restore": {
       "put": {
         "tags": [
           "Partner"
@@ -2038,7 +2038,7 @@
         }
       }
     },
-    "/api/Partner/Paginated": {
+    "/api/partner/paginated": {
       "get": {
         "tags": [
           "Partner"
@@ -2068,7 +2068,7 @@
         }
       }
     },
-    "/api/Product": {
+    "/api/product": {
       "get": {
         "tags": [
           "Product"
@@ -2192,7 +2192,7 @@
         }
       }
     },
-    "/api/Product/MostSoldProduct": {
+    "/api/product/mostsoldproduct": {
       "get": {
         "tags": [
           "Product"
@@ -2230,7 +2230,7 @@
         }
       }
     },
-    "/api/Product/NewestDiscountProduct": {
+    "/api/product/newestdiscountproduct": {
       "get": {
         "tags": [
           "Product"
@@ -2268,7 +2268,7 @@
         }
       }
     },
-    "/api/Product/NewestProduct": {
+    "/api/product/newestproduct": {
       "get": {
         "tags": [
           "Product"
@@ -2306,7 +2306,7 @@
         }
       }
     },
-    "/api/Product/DiscountProduct": {
+    "/api/product/discountproduct": {
       "get": {
         "tags": [
           "Product"
@@ -2344,7 +2344,7 @@
         }
       }
     },
-    "/api/Product/FilterPriceProduct": {
+    "/api/product/filterpriceproduct": {
       "get": {
         "tags": [
           "Product"
@@ -2400,7 +2400,7 @@
         }
       }
     },
-    "/api/Product/Deleted": {
+    "/api/product/deleted": {
       "get": {
         "tags": [
           "Product"
@@ -2438,7 +2438,7 @@
         }
       }
     },
-    "/api/Product/{id}": {
+    "/api/product/{id}": {
       "put": {
         "tags": [
           "Product"
@@ -2558,7 +2558,7 @@
         }
       }
     },
-    "/api/Product/Search": {
+    "/api/product/search": {
       "get": {
         "tags": [
           "Product"
@@ -2579,7 +2579,7 @@
         }
       }
     },
-    "/api/Product/{id}Soft": {
+    "/api/product/{id}soft": {
       "delete": {
         "tags": [
           "Product"
@@ -2602,7 +2602,7 @@
         }
       }
     },
-    "/api/Product/{id}Restore": {
+    "/api/product/{id}restore": {
       "put": {
         "tags": [
           "Product"
@@ -2625,7 +2625,7 @@
         }
       }
     },
-    "/api/Product/{id}Hard": {
+    "/api/product/{id}hard": {
       "delete": {
         "tags": [
           "Product"
@@ -2648,7 +2648,7 @@
         }
       }
     },
-    "/api/Product/Paginated": {
+    "/api/product/paginated": {
       "get": {
         "tags": [
           "Product"
@@ -2678,7 +2678,7 @@
         }
       }
     },
-    "/api/Review": {
+    "/api/review": {
       "get": {
         "tags": [
           "Review"
@@ -2721,50 +2721,19 @@
         ],
         "requestBody": {
           "content": {
-            "multipart/form-data": {
+            "application/json": {
               "schema": {
-                "type": "object",
-                "properties": {
-                  "Message": {
-                    "type": "string"
-                  },
-                  "Name": {
-                    "type": "string"
-                  },
-                  "Email": {
-                    "type": "string"
-                  },
-                  "SaveMe": {
-                    "type": "boolean"
-                  },
-                  "BlogId": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "Raiting": {
-                    "$ref": "#/components/schemas/RaitingEnum"
-                  }
-                }
-              },
-              "encoding": {
-                "Message": {
-                  "style": "form"
-                },
-                "Name": {
-                  "style": "form"
-                },
-                "Email": {
-                  "style": "form"
-                },
-                "SaveMe": {
-                  "style": "form"
-                },
-                "BlogId": {
-                  "style": "form"
-                },
-                "Raiting": {
-                  "style": "form"
-                }
+                "$ref": "#/components/schemas/ReviewDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReviewDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReviewDTO"
               }
             }
           }
@@ -2776,7 +2745,7 @@
         }
       }
     },
-    "/api/Review/Deleted": {
+    "/api/review/deleted": {
       "get": {
         "tags": [
           "Review"
@@ -2814,7 +2783,7 @@
         }
       }
     },
-    "/api/Review/{id}": {
+    "/api/review/{id}": {
       "get": {
         "tags": [
           "Review"
@@ -2877,7 +2846,7 @@
         }
       }
     },
-    "/api/Review/{id}Soft": {
+    "/api/review/{id}soft": {
       "delete": {
         "tags": [
           "Review"
@@ -2900,7 +2869,7 @@
         }
       }
     },
-    "/api/Review/{id}Hard": {
+    "/api/review/{id}hard": {
       "delete": {
         "tags": [
           "Review"
@@ -2923,7 +2892,7 @@
         }
       }
     },
-    "/api/Review/{id}Restore": {
+    "/api/review/{id}restore": {
       "put": {
         "tags": [
           "Review"
@@ -2946,7 +2915,7 @@
         }
       }
     },
-    "/api/Review/{id}/Reviews": {
+    "/api/review/{id}/reviews": {
       "get": {
         "tags": [
           "Review"
@@ -2969,7 +2938,7 @@
         }
       }
     },
-    "/api/Review/Paginated": {
+    "/api/review/paginated": {
       "get": {
         "tags": [
           "Review"
@@ -2999,7 +2968,7 @@
         }
       }
     },
-    "/api/Slider": {
+    "/api/slider": {
       "get": {
         "tags": [
           "Slider"
@@ -3073,7 +3042,7 @@
         }
       }
     },
-    "/api/Slider/Deleted": {
+    "/api/slider/deleted": {
       "get": {
         "tags": [
           "Slider"
@@ -3111,7 +3080,7 @@
         }
       }
     },
-    "/api/Slider/{id}": {
+    "/api/slider/{id}": {
       "get": {
         "tags": [
           "Slider"
@@ -3182,7 +3151,7 @@
         }
       }
     },
-    "/api/Slider/{id}Soft": {
+    "/api/slider/{id}soft": {
       "delete": {
         "tags": [
           "Slider"
@@ -3205,7 +3174,7 @@
         }
       }
     },
-    "/api/Slider/{id}Hard": {
+    "/api/slider/{id}hard": {
       "delete": {
         "tags": [
           "Slider"
@@ -3228,7 +3197,7 @@
         }
       }
     },
-    "/api/Slider/{id}Restore": {
+    "/api/slider/{id}restore": {
       "put": {
         "tags": [
           "Slider"
@@ -3251,7 +3220,7 @@
         }
       }
     },
-    "/api/Slider/Paginated": {
+    "/api/slider/paginated": {
       "get": {
         "tags": [
           "Slider"
@@ -3736,6 +3705,23 @@
         },
         "additionalProperties": false
       },
+      "ProductImageDTO": {
+        "type": "object",
+        "properties": {
+          "imagePath": {
+            "type": "string",
+            "nullable": true
+          },
+          "isMain": {
+            "type": "boolean"
+          },
+          "altText": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "ProductReadDTO": {
         "type": "object",
         "properties": {
@@ -3765,10 +3751,10 @@
             "format": "date-time",
             "nullable": true
           },
-          "images": {
+          "productImages": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/ProductImageCreateDTO"
+              "$ref": "#/components/schemas/ProductImageDTO"
             },
             "nullable": true
           },

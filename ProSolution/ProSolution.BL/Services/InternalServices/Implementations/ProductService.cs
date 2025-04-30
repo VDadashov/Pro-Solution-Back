@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using ProSolution.BL.DTOs.BLogDTOs;
 using ProSolution.BL.DTOs.CatagoryDTOs;
+using ProSolution.BL.DTOs.PartnerDTO;
 using ProSolution.BL.DTOs.ProductDTOs;
 using ProSolution.BL.Services.ExternalServices;
 using ProSolution.BL.Services.InternalServices.Abstractions;
@@ -16,13 +17,15 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
     {
         private readonly IProductReadRepository _productReadRepository;
         private readonly IProductWriteRepository _productWriteRepository;
+        private readonly IFileManagerService _fileManagerService;
         private readonly IMapper _mapper;
 
-        public ProductService(IMapper mapper, IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository)
+        public ProductService(IMapper mapper, IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository, IFileManagerService fileManagerService)
         {
             _mapper = mapper;
             _productWriteRepository = productWriteRepository;
             _productReadRepository = productReadRepository;
+            _fileManagerService = fileManagerService;
         }
 
 
@@ -51,8 +54,6 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             return result;
         }
 
-
-
         public async Task<Product> CreateAsync(ProductCreateDTO productCreateDto)
         {
             if (productCreateDto.Images == null || !productCreateDto.Images.Any())
@@ -60,21 +61,29 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
                 throw new Exception("No images uploaded.");
             }
 
+            // Hər bir şəkil üçün url-ləri saxla
+            var imagePaths = new List<string>();
+
             foreach (var imageDto in productCreateDto.Images)
             {
                 if (!imageDto.File.IsValidFile())
                 {
                     throw new Exception("One or more files have invalid type or size.");
                 }
+                // Şəkili buluda yüklə və url-i al
+                string imageUrl = await _fileManagerService.UploadFileAsync(imageDto.File);
+                imagePaths.Add(imageUrl);
             }
 
             Product product = _mapper.Map<Product>(productCreateDto);
             product.CreateAt = DateTime.UtcNow.AddHours(4);
             product.ProductImages = new List<ProductImage>();
 
-            foreach (var imageDto in productCreateDto.Images)
+            // Hər bir şəkil üçün uyğun url-i əlavə et
+            for (int i = 0; i < productCreateDto.Images.Count; i++)
             {
-                string savedPath = await imageDto.File.SaveAsync("Products");
+                var imageDto = productCreateDto.Images[i];
+                string savedPath = imagePaths[i];
                 product.ProductImages.Add(new ProductImage
                 {
                     ImagePath = savedPath,
@@ -87,6 +96,86 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             await _productWriteRepository.SaveChangeAsync();
             return res;
         }
+
+        //public async Task<Product> CreateAsync(ProductCreateDTO productCreateDto)
+        //{
+        //    if (productCreateDto.Images == null || !productCreateDto.Images.Any())
+        //    {
+        //        throw new Exception("No images uploaded.");
+        //    }
+
+        //    foreach (var imageDto in productCreateDto.Images)
+        //    {
+        //        if (!imageDto.File.IsValidFile())
+        //        {
+        //            throw new Exception("One or more files have invalid type or size.");
+        //        }
+        //    }
+
+        //    Product product = _mapper.Map<Product>(productCreateDto);
+        //    product.CreateAt = DateTime.UtcNow.AddHours(4);
+        //    product.ProductImages = new List<ProductImage>();
+
+        //    foreach (var imageDto in productCreateDto.Images)
+        //    {
+        //        string savedPath = await imageDto.File.SaveAsync("Products");
+        //        product.ProductImages.Add(new ProductImage
+        //        {
+        //            ImagePath = savedPath,
+        //            IsMain = imageDto.IsMain,
+        //            AltText = imageDto.AltText ?? productCreateDto.Title
+        //        });
+        //    }
+
+        //    var res = await _productWriteRepository.CreateAsync(product);
+        //    await _productWriteRepository.SaveChangeAsync();
+        //    return res;
+        //}
+
+
+        //public async Task<Product> UpdateAsync(int id, ProductUpdateDTO productUpdateDTO)
+        //{
+        //    Product oldProduct = await _productReadRepository.GetByIdAsync(id, false, ["ProductImages", "Catagory"]);
+        //    if (oldProduct == null)
+        //    {
+        //        throw new Exception("Bu Id-e uygun mehsul tapilmadi.");
+        //    }
+
+        //    _mapper.Map(productUpdateDTO, oldProduct);
+        //    oldProduct.UpdateAt = DateTime.UtcNow.AddHours(4);
+
+        //    if (productUpdateDTO.Images != null && productUpdateDTO.Images.Any())
+        //    {
+        //        foreach (var oldImage in oldProduct.ProductImages)
+        //        {
+        //            string oldImagePath = Path.Combine(Path.GetFullPath("Resource"), "ImageUpload", "Products", oldImage.ImagePath);
+        //            if (File.Exists(oldImagePath))
+        //            {
+        //                File.Delete(oldImagePath);
+        //            }
+        //        }
+        //        oldProduct.ProductImages.Clear();
+
+        //        foreach (var imageDto in productUpdateDTO.Images)
+        //        {
+        //            if (!imageDto.File.IsValidFile())
+        //            {
+        //                throw new Exception("One or more files have invalid type or size.");
+        //            }
+
+        //            string savedPath = await imageDto.File.SaveAsync("Products");
+        //            oldProduct.ProductImages.Add(new ProductImage
+        //            {
+        //                ImagePath = savedPath,
+        //                IsMain = imageDto.IsMain,
+        //                AltText = imageDto.AltText ?? productUpdateDTO.Title
+        //            });
+        //        }
+        //    }
+        //    Product updatedProduct = _productWriteRepository.Update(oldProduct);
+        //    await _productWriteRepository.SaveChangeAsync();
+        //    return updatedProduct;
+        //}
 
 
         public async Task<Product> UpdateAsync(int id, ProductUpdateDTO productUpdateDTO)
@@ -102,13 +191,11 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
 
             if (productUpdateDTO.Images != null && productUpdateDTO.Images.Any())
             {
+                // Köhnə şəkilləri sil (əgər buludda saxlanılırsa, buluddan silmək üçün ayrıca servis çağırmaq olar)
                 foreach (var oldImage in oldProduct.ProductImages)
                 {
-                    string oldImagePath = Path.Combine(Path.GetFullPath("Resource"), "ImageUpload", "Products", oldImage.ImagePath);
-                    if (File.Exists(oldImagePath))
-                    {
-                        File.Delete(oldImagePath);
-                    }
+                    // Əgər buludda silmək lazımdırsa, burada silmə servisi çağır
+                    // await _fileManagerService.DeleteFileAsync(oldImage.ImagePath);
                 }
                 oldProduct.ProductImages.Clear();
 
@@ -119,10 +206,11 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
                         throw new Exception("One or more files have invalid type or size.");
                     }
 
-                    string savedPath = await imageDto.File.SaveAsync("Products");
+                    // Yeni şəkli buluda yüklə və url-i al
+                    string imageUrl = await _fileManagerService.UploadFileAsync(imageDto.File);
                     oldProduct.ProductImages.Add(new ProductImage
                     {
-                        ImagePath = savedPath,
+                        ImagePath = imageUrl,
                         IsMain = imageDto.IsMain,
                         AltText = imageDto.AltText ?? productUpdateDTO.Title
                     });
@@ -132,6 +220,8 @@ namespace ProSolution.BL.Services.InternalServices.Implementations
             await _productWriteRepository.SaveChangeAsync();
             return updatedProduct;
         }
+
+
         public async Task<ICollection<ProductReadDTO>> GetAllAsync()
         {
             var products = await _productReadRepository.GetAllAsync(false, ["Catagory" , "ProductImages"]);

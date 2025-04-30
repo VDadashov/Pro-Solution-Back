@@ -28,7 +28,7 @@ namespace ProSolution.API.Controllers
             return await _reviewService.GetAllDeletedAsync();
         }
         [HttpPost]
-        public async Task<IActionResult> Create([FromForm] ReviewDTO catagoryDto)
+        public async Task<IActionResult> Create([FromBody] ReviewDTO catagoryDto)
         {
             try
             {

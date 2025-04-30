@@ -11,7 +11,8 @@ namespace ProSolution.BL.DTOs.ProductDTOs
         public decimal Price { get; set; }
         public decimal? NewPrice { get; set; }
         public DateTime? DiscountEndDate { get; set; }
-        public List<ProductImageCreateDTO> Images { get; set; }
+        //public List<ProductImageCreateDTO> Images { get; set; }
+        public List<ProductImageDTO> ProductImages { get; set; }
         //public ProductImageCreateDTO ProductImageCreateDTO { get; set; }
         //public string ImagePath { get; set; }
         public CatagoryDTO Catagory { get; set; }
